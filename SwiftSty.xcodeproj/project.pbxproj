@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCA59B3D2DFDC4980001EF7D /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA59B3C2DFDC4960001EF7D /* TabView.swift */; };
 		BCB3BFE62DFBD02E001B2DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB3BFE22DFBD02E001B2DDE /* Assets.xcassets */; };
 		BCB3BFE72DFBD02E001B2DDE /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BFE12DFBD02E001B2DDE /* ActivityView.swift */; };
 		BCB3BFE82DFBD02E001B2DDE /* SwiftStyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BFE32DFBD02E001B2DDE /* SwiftStyApp.swift */; };
 		BCB3BFE92DFBD02E001B2DDE /* swipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BFE42DFBD02E001B2DDE /* swipeActions.swift */; };
+		BCB3BFED2DFC772B001B2DDE /* multilineTextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BFEC2DFC772A001B2DDE /* multilineTextAlignment.swift */; };
+		BCB3BFEF2DFC7CB0001B2DDE /* lineLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BFEE2DFC7CAF001B2DDE /* lineLimit.swift */; };
+		BCB3BFF12DFC7DCF001B2DDE /* lineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BFF02DFC7DCE001B2DDE /* lineSpacing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +38,14 @@
 		BC20279D2DF9926900B1CC27 /* SwiftSty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2027AA2DF9926B00B1CC27 /* SwiftStyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2027B42DF9926B00B1CC27 /* SwiftStyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA59B3C2DFDC4960001EF7D /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		BCB3BFE12DFBD02E001B2DDE /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		BCB3BFE22DFBD02E001B2DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCB3BFE32DFBD02E001B2DDE /* SwiftStyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStyApp.swift; sourceTree = "<group>"; };
 		BCB3BFE42DFBD02E001B2DDE /* swipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipeActions.swift; sourceTree = "<group>"; };
+		BCB3BFEC2DFC772A001B2DDE /* multilineTextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multilineTextAlignment.swift; sourceTree = "<group>"; };
+		BCB3BFEE2DFC7CAF001B2DDE /* lineLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineLimit.swift; sourceTree = "<group>"; };
+		BCB3BFF02DFC7DCE001B2DDE /* lineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineSpacing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -101,6 +109,7 @@
 		BCB3BFE52DFBD02E001B2DDE /* SwiftSty */ = {
 			isa = PBXGroup;
 			children = (
+				BCB3BFEB2DFC771D001B2DDE /* UI */,
 				BCB3BFEA2DFBD034001B2DDE /* Function */,
 				BCB3BFE22DFBD02E001B2DDE /* Assets.xcassets */,
 				BCB3BFE32DFBD02E001B2DDE /* SwiftStyApp.swift */,
@@ -115,6 +124,17 @@
 				BCB3BFE42DFBD02E001B2DDE /* swipeActions.swift */,
 			);
 			path = Function;
+			sourceTree = "<group>";
+		};
+		BCB3BFEB2DFC771D001B2DDE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BCA59B3C2DFDC4960001EF7D /* TabView.swift */,
+				BCB3BFEE2DFC7CAF001B2DDE /* lineLimit.swift */,
+				BCB3BFF02DFC7DCE001B2DDE /* lineSpacing.swift */,
+				BCB3BFEC2DFC772A001B2DDE /* multilineTextAlignment.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +213,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
-				LastUpgradeCheck = 1630;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					BC20279C2DF9926900B1CC27 = {
 						CreatedOnToolsVersion = 16.3;
@@ -261,7 +281,11 @@
 			files = (
 				BCB3BFE72DFBD02E001B2DDE /* ActivityView.swift in Sources */,
 				BCB3BFE82DFBD02E001B2DDE /* SwiftStyApp.swift in Sources */,
+				BCB3BFED2DFC772B001B2DDE /* multilineTextAlignment.swift in Sources */,
+				BCB3BFEF2DFC7CB0001B2DDE /* lineLimit.swift in Sources */,
+				BCA59B3D2DFDC4980001EF7D /* TabView.swift in Sources */,
 				BCB3BFE92DFBD02E001B2DDE /* swipeActions.swift in Sources */,
+				BCB3BFF12DFC7DCF001B2DDE /* lineSpacing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +377,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -409,6 +434,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
