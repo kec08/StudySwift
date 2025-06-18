@@ -26,6 +26,7 @@
 		BCB3BFED2DFC772B001B2DDE /* multilineTextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BFEC2DFC772A001B2DDE /* multilineTextAlignment.swift */; };
 		BCB3BFEF2DFC7CB0001B2DDE /* lineLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BFEE2DFC7CAF001B2DDE /* lineLimit.swift */; };
 		BCB3BFF12DFC7DCF001B2DDE /* lineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BFF02DFC7DCE001B2DDE /* lineSpacing.swift */; };
+		BCFDF4442E0322F0002AE09E /* PinnedScrollableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFDF4432E0322EA002AE09E /* PinnedScrollableViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		BCB3BFEC2DFC772A001B2DDE /* multilineTextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multilineTextAlignment.swift; sourceTree = "<group>"; };
 		BCB3BFEE2DFC7CAF001B2DDE /* lineLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineLimit.swift; sourceTree = "<group>"; };
 		BCB3BFF02DFC7DCE001B2DDE /* lineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineSpacing.swift; sourceTree = "<group>"; };
+		BCFDF4432E0322EA002AE09E /* PinnedScrollableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedScrollableViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -167,6 +169,7 @@
 		BCB3BFEB2DFC771D001B2DDE /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				BCFDF4432E0322EA002AE09E /* PinnedScrollableViews.swift */,
 				BC2447BB2E0030F000E10A17 /* ScrollViewReader.swift */,
 				BC2447B92E000E3900E10A17 /* OutlineGroupView.swift */,
 				BC2447B72DFFF9EB00E10A17 /* DisclosureGroupView.swift */,
@@ -334,6 +337,7 @@
 				BC2447B82DFFF9EE00E10A17 /* DisclosureGroupView.swift in Sources */,
 				BCB3BFEF2DFC7CB0001B2DDE /* lineLimit.swift in Sources */,
 				BCA59B3D2DFDC4980001EF7D /* TabView.swift in Sources */,
+				BCFDF4442E0322F0002AE09E /* PinnedScrollableViews.swift in Sources */,
 				BCB3BFE92DFBD02E001B2DDE /* swipeActions.swift in Sources */,
 				BCA59B4A2DFDFEAE0001EF7D /* RectangleMarkView.swift in Sources */,
 				BCA59B4E2DFE71C80001EF7D /* NavigationStackView.swift in Sources */,
