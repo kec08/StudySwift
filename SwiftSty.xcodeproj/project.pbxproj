@@ -19,6 +19,8 @@
 		BCA59B482DFDFDCC0001EF7D /* RuleMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA59B472DFDFDCB0001EF7D /* RuleMarkView.swift */; };
 		BCA59B4A2DFDFEAE0001EF7D /* RectangleMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA59B492DFDFEAB0001EF7D /* RectangleMarkView.swift */; };
 		BCA59B4E2DFE71C80001EF7D /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA59B4D2DFE71C80001EF7D /* NavigationStackView.swift */; };
+		BCAB50972E06A7A5002E5837 /* LazyVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB50962E06A7A2002E5837 /* LazyVGridView.swift */; };
+		BCAB50992E06A85C002E5837 /* LazyHGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB50982E06A859002E5837 /* LazyHGridView.swift */; };
 		BCB3BFE62DFBD02E001B2DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB3BFE22DFBD02E001B2DDE /* Assets.xcassets */; };
 		BCB3BFE72DFBD02E001B2DDE /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BFE12DFBD02E001B2DDE /* ActivityView.swift */; };
 		BCB3BFE82DFBD02E001B2DDE /* SwiftStyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BFE32DFBD02E001B2DDE /* SwiftStyApp.swift */; };
@@ -65,6 +67,8 @@
 		BCA59B472DFDFDCB0001EF7D /* RuleMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleMarkView.swift; sourceTree = "<group>"; };
 		BCA59B492DFDFEAB0001EF7D /* RectangleMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleMarkView.swift; sourceTree = "<group>"; };
 		BCA59B4D2DFE71C80001EF7D /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
+		BCAB50962E06A7A2002E5837 /* LazyVGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridView.swift; sourceTree = "<group>"; };
+		BCAB50982E06A859002E5837 /* LazyHGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridView.swift; sourceTree = "<group>"; };
 		BCB3BFE12DFBD02E001B2DDE /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		BCB3BFE22DFBD02E001B2DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCB3BFE32DFBD02E001B2DDE /* SwiftStyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStyApp.swift; sourceTree = "<group>"; };
@@ -175,6 +179,8 @@
 		BCB3BFEB2DFC771D001B2DDE /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				BCAB50982E06A859002E5837 /* LazyHGridView.swift */,
+				BCAB50962E06A7A2002E5837 /* LazyVGridView.swift */,
 				BCBEBCF22E0593AB006EFA81 /* OverlayView.swift */,
 				BCFDF44B2E039CC7002AE09E /* onTapGestureView.swift */,
 				BCFDF4472E0390FA002AE09E /* CustomTapGestureView.swift */,
@@ -346,6 +352,8 @@
 				BCB3BFED2DFC772B001B2DDE /* multilineTextAlignment.swift in Sources */,
 				BCA59B442DFDFAE40001EF7D /* LineMarkView.swift in Sources */,
 				BC2447382DFF0B4700E10A17 /* redactedView.swift in Sources */,
+				BCAB50972E06A7A5002E5837 /* LazyVGridView.swift in Sources */,
+				BCAB50992E06A85C002E5837 /* LazyHGridView.swift in Sources */,
 				BC2447B82DFFF9EE00E10A17 /* DisclosureGroupView.swift in Sources */,
 				BCB3BFEF2DFC7CB0001B2DDE /* lineLimit.swift in Sources */,
 				BCA59B3D2DFDC4980001EF7D /* TabView.swift in Sources */,
