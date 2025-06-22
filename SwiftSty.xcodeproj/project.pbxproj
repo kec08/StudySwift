@@ -29,6 +29,7 @@
 		BCB3BFEF2DFC7CB0001B2DDE /* lineLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BFEE2DFC7CAF001B2DDE /* lineLimit.swift */; };
 		BCB3BFF12DFC7DCF001B2DDE /* lineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BFF02DFC7DCE001B2DDE /* lineSpacing.swift */; };
 		BCBEBCF32E0593B0006EFA81 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBEBCF22E0593AB006EFA81 /* OverlayView.swift */; };
+		BCF5AE182E084E4B0074E06A /* renderingModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5AE172E084E480074E06A /* renderingModeView.swift */; };
 		BCFDF4442E0322F0002AE09E /* PinnedScrollableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFDF4432E0322EA002AE09E /* PinnedScrollableViews.swift */; };
 		BCFDF4482E039101002AE09E /* CustomTapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFDF4472E0390FA002AE09E /* CustomTapGestureView.swift */; };
 		BCFDF44C2E039CCA002AE09E /* onTapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFDF44B2E039CC7002AE09E /* onTapGestureView.swift */; };
@@ -77,6 +78,7 @@
 		BCB3BFEE2DFC7CAF001B2DDE /* lineLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineLimit.swift; sourceTree = "<group>"; };
 		BCB3BFF02DFC7DCE001B2DDE /* lineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineSpacing.swift; sourceTree = "<group>"; };
 		BCBEBCF22E0593AB006EFA81 /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		BCF5AE172E084E480074E06A /* renderingModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = renderingModeView.swift; sourceTree = "<group>"; };
 		BCFDF4432E0322EA002AE09E /* PinnedScrollableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedScrollableViews.swift; sourceTree = "<group>"; };
 		BCFDF4472E0390FA002AE09E /* CustomTapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapGestureView.swift; sourceTree = "<group>"; };
 		BCFDF44B2E039CC7002AE09E /* onTapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onTapGestureView.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 		BCB3BFEB2DFC771D001B2DDE /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				BCF5AE172E084E480074E06A /* renderingModeView.swift */,
 				BCAB50982E06A859002E5837 /* LazyHGridView.swift */,
 				BCAB50962E06A7A2002E5837 /* LazyVGridView.swift */,
 				BCBEBCF22E0593AB006EFA81 /* OverlayView.swift */,
@@ -341,6 +344,7 @@
 				BC2447BA2E000E3F00E10A17 /* OutlineGroupView.swift in Sources */,
 				BCFDF4482E039101002AE09E /* CustomTapGestureView.swift in Sources */,
 				BCA59B3F2DFDE48E0001EF7D /* BarMarkView.swift in Sources */,
+				BCF5AE182E084E4B0074E06A /* renderingModeView.swift in Sources */,
 				BCFDF44C2E039CCA002AE09E /* onTapGestureView.swift in Sources */,
 				BCB3BFE72DFBD02E001B2DDE /* ActivityView.swift in Sources */,
 				BCA59B482DFDFDCC0001EF7D /* RuleMarkView.swift in Sources */,
