@@ -33,6 +33,8 @@
 		BCF5AE1C2E0995000074E06A /* refreshableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5AE1B2E0994F80074E06A /* refreshableView.swift */; };
 		BCF5AE1E2E09A30B0074E06A /* RefreshActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5AE1D2E09A30A0074E06A /* RefreshActionView.swift */; };
 		BCF6671E2E0AF98600C8B475 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF6671D2E0AF97A00C8B475 /* TextView.swift */; };
+		BCF667262E0B1DA400C8B475 /* SpacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF667252E0B1D8D00C8B475 /* SpacingView.swift */; };
+		BCF667282E0B228C00C8B475 /* lineSpacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF667272E0B228800C8B475 /* lineSpacingView.swift */; };
 		BCFDF4442E0322F0002AE09E /* PinnedScrollableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFDF4432E0322EA002AE09E /* PinnedScrollableViews.swift */; };
 		BCFDF4482E039101002AE09E /* CustomTapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFDF4472E0390FA002AE09E /* CustomTapGestureView.swift */; };
 		BCFDF44C2E039CCA002AE09E /* onTapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFDF44B2E039CC7002AE09E /* onTapGestureView.swift */; };
@@ -85,6 +87,8 @@
 		BCF5AE1B2E0994F80074E06A /* refreshableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = refreshableView.swift; sourceTree = "<group>"; };
 		BCF5AE1D2E09A30A0074E06A /* RefreshActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshActionView.swift; sourceTree = "<group>"; };
 		BCF6671D2E0AF97A00C8B475 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		BCF667252E0B1D8D00C8B475 /* SpacingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacingView.swift; sourceTree = "<group>"; };
+		BCF667272E0B228800C8B475 /* lineSpacingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineSpacingView.swift; sourceTree = "<group>"; };
 		BCFDF4432E0322EA002AE09E /* PinnedScrollableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedScrollableViews.swift; sourceTree = "<group>"; };
 		BCFDF4472E0390FA002AE09E /* CustomTapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapGestureView.swift; sourceTree = "<group>"; };
 		BCFDF44B2E039CC7002AE09E /* onTapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onTapGestureView.swift; sourceTree = "<group>"; };
@@ -99,6 +103,11 @@
 		BC2027B72DF9926B00B1CC27 /* SwiftStyUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SwiftStyUITests;
+			sourceTree = "<group>";
+		};
+		BCD71CE42E0C36CA0070ADC9 /* VideoPlayer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VideoPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -164,6 +173,7 @@
 		BCB3BFE52DFBD02E001B2DDE /* SwiftSty */ = {
 			isa = PBXGroup;
 			children = (
+				BCD71CE42E0C36CA0070ADC9 /* VideoPlayer */,
 				BCB3BFEB2DFC771D001B2DDE /* UI */,
 				BCB3BFEA2DFBD034001B2DDE /* Function */,
 				BCB3BFE22DFBD02E001B2DDE /* Assets.xcassets */,
@@ -188,6 +198,8 @@
 		BCB3BFEB2DFC771D001B2DDE /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				BCF667272E0B228800C8B475 /* lineSpacingView.swift */,
+				BCF667252E0B1D8D00C8B475 /* SpacingView.swift */,
 				BCF5AE1D2E09A30A0074E06A /* RefreshActionView.swift */,
 				BCF5AE172E084E480074E06A /* renderingModeView.swift */,
 				BCAB50982E06A859002E5837 /* LazyHGridView.swift */,
@@ -222,6 +234,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BCD71CE42E0C36CA0070ADC9 /* VideoPlayer */,
 			);
 			name = SwiftSty;
 			packageProductDependencies = (
@@ -361,6 +376,7 @@
 				BCA59B462DFDFC030001EF7D /* AreaMarkView.swift in Sources */,
 				BCB3BFE82DFBD02E001B2DDE /* SwiftStyApp.swift in Sources */,
 				BCBEBCF32E0593B0006EFA81 /* OverlayView.swift in Sources */,
+				BCF667262E0B1DA400C8B475 /* SpacingView.swift in Sources */,
 				BCF5AE1E2E09A30B0074E06A /* RefreshActionView.swift in Sources */,
 				BCA59B422DFDF7030001EF7D /* PointMarkView.swift in Sources */,
 				BCB3BFED2DFC772B001B2DDE /* multilineTextAlignment.swift in Sources */,
@@ -371,6 +387,7 @@
 				BCF5AE1C2E0995000074E06A /* refreshableView.swift in Sources */,
 				BCAB50992E06A85C002E5837 /* LazyHGridView.swift in Sources */,
 				BC2447B82DFFF9EE00E10A17 /* DisclosureGroupView.swift in Sources */,
+				BCF667282E0B228C00C8B475 /* lineSpacingView.swift in Sources */,
 				BCB3BFEF2DFC7CB0001B2DDE /* lineLimit.swift in Sources */,
 				BCA59B3D2DFDC4980001EF7D /* TabView.swift in Sources */,
 				BCFDF4442E0322F0002AE09E /* PinnedScrollableViews.swift in Sources */,
