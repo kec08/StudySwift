@@ -35,6 +35,8 @@
 		BCF6671E2E0AF98600C8B475 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF6671D2E0AF97A00C8B475 /* TextView.swift */; };
 		BCF667262E0B1DA400C8B475 /* SpacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF667252E0B1D8D00C8B475 /* SpacingView.swift */; };
 		BCF667282E0B228C00C8B475 /* lineSpacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF667272E0B228800C8B475 /* lineSpacingView.swift */; };
+		BCFBC84F2E0D274F0033E563 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBC84E2E0D27410033E563 /* CalenderView.swift */; };
+		BCFBC8512E0D2D0F0033E563 /* HCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBC8502E0D2D070033E563 /* HCalendarView.swift */; };
 		BCFDF4442E0322F0002AE09E /* PinnedScrollableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFDF4432E0322EA002AE09E /* PinnedScrollableViews.swift */; };
 		BCFDF4482E039101002AE09E /* CustomTapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFDF4472E0390FA002AE09E /* CustomTapGestureView.swift */; };
 		BCFDF44C2E039CCA002AE09E /* onTapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFDF44B2E039CC7002AE09E /* onTapGestureView.swift */; };
@@ -89,6 +91,8 @@
 		BCF6671D2E0AF97A00C8B475 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		BCF667252E0B1D8D00C8B475 /* SpacingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacingView.swift; sourceTree = "<group>"; };
 		BCF667272E0B228800C8B475 /* lineSpacingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineSpacingView.swift; sourceTree = "<group>"; };
+		BCFBC84E2E0D27410033E563 /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		BCFBC8502E0D2D070033E563 /* HCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCalendarView.swift; sourceTree = "<group>"; };
 		BCFDF4432E0322EA002AE09E /* PinnedScrollableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedScrollableViews.swift; sourceTree = "<group>"; };
 		BCFDF4472E0390FA002AE09E /* CustomTapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapGestureView.swift; sourceTree = "<group>"; };
 		BCFDF44B2E039CC7002AE09E /* onTapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onTapGestureView.swift; sourceTree = "<group>"; };
@@ -198,6 +202,8 @@
 		BCB3BFEB2DFC771D001B2DDE /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				BCFBC84E2E0D27410033E563 /* CalenderView.swift */,
+				BCFBC8502E0D2D070033E563 /* HCalendarView.swift */,
 				BCF667272E0B228800C8B475 /* lineSpacingView.swift */,
 				BCF667252E0B1D8D00C8B475 /* SpacingView.swift */,
 				BCF5AE1D2E09A30A0074E06A /* RefreshActionView.swift */,
@@ -367,6 +373,7 @@
 			files = (
 				BC2447BA2E000E3F00E10A17 /* OutlineGroupView.swift in Sources */,
 				BCFDF4482E039101002AE09E /* CustomTapGestureView.swift in Sources */,
+				BCFBC84F2E0D274F0033E563 /* CalenderView.swift in Sources */,
 				BCA59B3F2DFDE48E0001EF7D /* BarMarkView.swift in Sources */,
 				BCF5AE182E084E4B0074E06A /* renderingModeView.swift in Sources */,
 				BCFDF44C2E039CCA002AE09E /* onTapGestureView.swift in Sources */,
@@ -382,6 +389,7 @@
 				BCB3BFED2DFC772B001B2DDE /* multilineTextAlignment.swift in Sources */,
 				BCA59B442DFDFAE40001EF7D /* LineMarkView.swift in Sources */,
 				BC2447382DFF0B4700E10A17 /* redactedView.swift in Sources */,
+				BCFBC8512E0D2D0F0033E563 /* HCalendarView.swift in Sources */,
 				BCAB50972E06A7A5002E5837 /* LazyVGridView.swift in Sources */,
 				BCF6671E2E0AF98600C8B475 /* TextView.swift in Sources */,
 				BCF5AE1C2E0995000074E06A /* refreshableView.swift in Sources */,
