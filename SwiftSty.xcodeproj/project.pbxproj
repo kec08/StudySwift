@@ -36,6 +36,7 @@
 		BCF6671E2E0AF98600C8B475 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF6671D2E0AF97A00C8B475 /* TextView.swift */; };
 		BCF667262E0B1DA400C8B475 /* SpacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF667252E0B1D8D00C8B475 /* SpacingView.swift */; };
 		BCF667282E0B228C00C8B475 /* lineSpacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF667272E0B228800C8B475 /* lineSpacingView.swift */; };
+		BCF8E3122E19745800B719FB /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8E3112E19745300B719FB /* NotificationView.swift */; };
 		BCFBC84F2E0D274F0033E563 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBC84E2E0D27410033E563 /* CalenderView.swift */; };
 		BCFBC8512E0D2D0F0033E563 /* HCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBC8502E0D2D070033E563 /* HCalendarView.swift */; };
 		BCFDF4442E0322F0002AE09E /* PinnedScrollableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFDF4432E0322EA002AE09E /* PinnedScrollableViews.swift */; };
@@ -93,6 +94,7 @@
 		BCF6671D2E0AF97A00C8B475 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		BCF667252E0B1D8D00C8B475 /* SpacingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacingView.swift; sourceTree = "<group>"; };
 		BCF667272E0B228800C8B475 /* lineSpacingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineSpacingView.swift; sourceTree = "<group>"; };
+		BCF8E3112E19745300B719FB /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		BCFBC84E2E0D27410033E563 /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
 		BCFBC8502E0D2D070033E563 /* HCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCalendarView.swift; sourceTree = "<group>"; };
 		BCFDF4432E0322EA002AE09E /* PinnedScrollableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedScrollableViews.swift; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 		BCB3BFEB2DFC771D001B2DDE /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				BCF8E3112E19745300B719FB /* NotificationView.swift */,
 				BC756E912E1193A000B07C89 /* animations */,
 				BCEE41552E0F34B7002AC57E /* AnimationsView.swift */,
 				BCFBC84E2E0D27410033E563 /* CalenderView.swift */,
@@ -407,6 +410,7 @@
 				BC2447B82DFFF9EE00E10A17 /* DisclosureGroupView.swift in Sources */,
 				BCEE41562E0F34C9002AC57E /* AnimationsView.swift in Sources */,
 				BCF667282E0B228C00C8B475 /* lineSpacingView.swift in Sources */,
+				BCF8E3122E19745800B719FB /* NotificationView.swift in Sources */,
 				BCB3BFEF2DFC7CB0001B2DDE /* lineLimit.swift in Sources */,
 				BCA59B3D2DFDC4980001EF7D /* TabView.swift in Sources */,
 				BCFDF4442E0322F0002AE09E /* PinnedScrollableViews.swift in Sources */,
