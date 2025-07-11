@@ -21,6 +21,7 @@
 		BCA59B4E2DFE71C80001EF7D /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA59B4D2DFE71C80001EF7D /* NavigationStackView.swift */; };
 		BCAB50972E06A7A5002E5837 /* LazyVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB50962E06A7A2002E5837 /* LazyVGridView.swift */; };
 		BCAB50992E06A85C002E5837 /* LazyHGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB50982E06A859002E5837 /* LazyHGridView.swift */; };
+		BCAC4C0B2E20ED8300E06946 /* 2025_07_11_ScrollViewRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC4C0A2E20ED7E00E06946 /* 2025_07_11_ScrollViewRepresentableView.swift */; };
 		BCB3BFE62DFBD02E001B2DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB3BFE22DFBD02E001B2DDE /* Assets.xcassets */; };
 		BCB3BFE72DFBD02E001B2DDE /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BFE12DFBD02E001B2DDE /* ActivityView.swift */; };
 		BCB3BFE82DFBD02E001B2DDE /* SwiftStyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BFE32DFBD02E001B2DDE /* SwiftStyApp.swift */; };
@@ -45,7 +46,7 @@
 		BCF8E4642E1C2F7400B719FB /* FontMonospacedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8E4632E1C2F7300B719FB /* FontMonospacedView.swift */; };
 		BCF8E47F2E1EB7A600B719FB /* onChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8E47E2E1EB78E00B719FB /* onChangeView.swift */; };
 		BCF8E4992E20037E00B719FB /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8E4982E20037700B719FB /* DatePickerView.swift */; };
-		BCF8E49B2E20084100B719FB /* PickerCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8E49A2E20082E00B719FB /* PickerCustomView.swift */; };
+		BCF8E49B2E20084100B719FB /* 2025_07_10_PickerCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8E49A2E20082E00B719FB /* 2025_07_10_PickerCustomView.swift */; };
 		BCFBC84F2E0D274F0033E563 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBC84E2E0D27410033E563 /* CalenderView.swift */; };
 		BCFBC8512E0D2D0F0033E563 /* HCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBC8502E0D2D070033E563 /* HCalendarView.swift */; };
 		BCFDF4442E0322F0002AE09E /* PinnedScrollableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFDF4432E0322EA002AE09E /* PinnedScrollableViews.swift */; };
@@ -88,6 +89,7 @@
 		BCA59B4D2DFE71C80001EF7D /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
 		BCAB50962E06A7A2002E5837 /* LazyVGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridView.swift; sourceTree = "<group>"; };
 		BCAB50982E06A859002E5837 /* LazyHGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridView.swift; sourceTree = "<group>"; };
+		BCAC4C0A2E20ED7E00E06946 /* 2025_07_11_ScrollViewRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_11_ScrollViewRepresentableView.swift; sourceTree = "<group>"; };
 		BCB3BFE12DFBD02E001B2DDE /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		BCB3BFE22DFBD02E001B2DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCB3BFE32DFBD02E001B2DDE /* SwiftStyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStyApp.swift; sourceTree = "<group>"; };
@@ -112,7 +114,7 @@
 		BCF8E4632E1C2F7300B719FB /* FontMonospacedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontMonospacedView.swift; sourceTree = "<group>"; };
 		BCF8E47E2E1EB78E00B719FB /* onChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onChangeView.swift; sourceTree = "<group>"; };
 		BCF8E4982E20037700B719FB /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
-		BCF8E49A2E20082E00B719FB /* PickerCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerCustomView.swift; sourceTree = "<group>"; };
+		BCF8E49A2E20082E00B719FB /* 2025_07_10_PickerCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_10_PickerCustomView.swift; sourceTree = "<group>"; };
 		BCFBC84E2E0D27410033E563 /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
 		BCFBC8502E0D2D070033E563 /* HCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCalendarView.swift; sourceTree = "<group>"; };
 		BCFDF4432E0322EA002AE09E /* PinnedScrollableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedScrollableViews.swift; sourceTree = "<group>"; };
@@ -201,12 +203,39 @@
 			path = Charts;
 			sourceTree = "<group>";
 		};
-		BCB3BFE52DFBD02E001B2DDE /* SwiftSty */ = {
+		BCAC4C0D2E20F0A200E06946 /* 2025 */ = {
 			isa = PBXGroup;
 			children = (
+				BCAC4C0E2E20F0D100E06946 /* 07 */,
 				BCD71CE42E0C36CA0070ADC9 /* VideoPlayer */,
 				BCB3BFEB2DFC771D001B2DDE /* UI */,
 				BCB3BFEA2DFBD034001B2DDE /* Function */,
+			);
+			path = 2025;
+			sourceTree = "<group>";
+		};
+		BCAC4C0E2E20F0D100E06946 /* 07 */ = {
+			isa = PBXGroup;
+			children = (
+				BCAC4C0A2E20ED7E00E06946 /* 2025_07_11_ScrollViewRepresentableView.swift */,
+				BCF8E49A2E20082E00B719FB /* 2025_07_10_PickerCustomView.swift */,
+				BCF8E4982E20037700B719FB /* DatePickerView.swift */,
+				BCF8E47E2E1EB78E00B719FB /* onChangeView.swift */,
+				BCF8E4652E1C2FBA00B719FB /* monospaced */,
+				BCF8E3BB2E1ADF1B00B719FB /* StickyView.swift */,
+				BCF8E3B92E1AD8AC00B719FB /* CustomTabView .swift */,
+				BCF8E3132E1988FF00B719FB /* TooltipShapeView.swift */,
+				BCF8E3112E19745300B719FB /* NotificationView.swift */,
+				BC756E912E1193A000B07C89 /* animations */,
+				BCEE41552E0F34B7002AC57E /* AnimationsView.swift */,
+			);
+			path = 07;
+			sourceTree = "<group>";
+		};
+		BCB3BFE52DFBD02E001B2DDE /* SwiftSty */ = {
+			isa = PBXGroup;
+			children = (
+				BCAC4C0D2E20F0A200E06946 /* 2025 */,
 				BCB3BFE22DFBD02E001B2DDE /* Assets.xcassets */,
 				BCB3BFE32DFBD02E001B2DDE /* SwiftStyApp.swift */,
 			);
@@ -229,16 +258,6 @@
 		BCB3BFEB2DFC771D001B2DDE /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				BCF8E49A2E20082E00B719FB /* PickerCustomView.swift */,
-				BCF8E4982E20037700B719FB /* DatePickerView.swift */,
-				BCF8E47E2E1EB78E00B719FB /* onChangeView.swift */,
-				BCF8E4652E1C2FBA00B719FB /* monospaced */,
-				BCF8E3BB2E1ADF1B00B719FB /* StickyView.swift */,
-				BCF8E3B92E1AD8AC00B719FB /* CustomTabView .swift */,
-				BCF8E3132E1988FF00B719FB /* TooltipShapeView.swift */,
-				BCF8E3112E19745300B719FB /* NotificationView.swift */,
-				BC756E912E1193A000B07C89 /* animations */,
-				BCEE41552E0F34B7002AC57E /* AnimationsView.swift */,
 				BCFBC84E2E0D27410033E563 /* CalenderView.swift */,
 				BCFBC8502E0D2D070033E563 /* HCalendarView.swift */,
 				BCF667272E0B228800C8B475 /* lineSpacingView.swift */,
@@ -437,6 +456,7 @@
 				BCF8E3142E19890200B719FB /* TooltipShapeView.swift in Sources */,
 				BCF667262E0B1DA400C8B475 /* SpacingView.swift in Sources */,
 				BCF8E4602E1C2EC800B719FB /* MonospacedView.swift in Sources */,
+				BCAC4C0B2E20ED8300E06946 /* 2025_07_11_ScrollViewRepresentableView.swift in Sources */,
 				BCF5AE1E2E09A30B0074E06A /* RefreshActionView.swift in Sources */,
 				BCF8E3BC2E1ADF2600B719FB /* StickyView.swift in Sources */,
 				BCA59B422DFDF7030001EF7D /* PointMarkView.swift in Sources */,
@@ -446,7 +466,7 @@
 				BC2447382DFF0B4700E10A17 /* redactedView.swift in Sources */,
 				BCFBC8512E0D2D0F0033E563 /* HCalendarView.swift in Sources */,
 				BCAB50972E06A7A5002E5837 /* LazyVGridView.swift in Sources */,
-				BCF8E49B2E20084100B719FB /* PickerCustomView.swift in Sources */,
+				BCF8E49B2E20084100B719FB /* 2025_07_10_PickerCustomView.swift in Sources */,
 				BCF6671E2E0AF98600C8B475 /* TextView.swift in Sources */,
 				BCF5AE1C2E0995000074E06A /* refreshableView.swift in Sources */,
 				BCAB50992E06A85C002E5837 /* LazyHGridView.swift in Sources */,
