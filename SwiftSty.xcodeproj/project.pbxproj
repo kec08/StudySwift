@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC0253062E28F27700504074 /* 2025_07_17_allowsHitTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0253052E28F26000504074 /* 2025_07_17_allowsHitTestingView.swift */; };
 		BC2447382DFF0B4700E10A17 /* redactedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447372DFF0B4500E10A17 /* redactedView.swift */; };
 		BC2447B82DFFF9EE00E10A17 /* DisclosureGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447B72DFFF9EB00E10A17 /* DisclosureGroupView.swift */; };
 		BC2447BA2E000E3F00E10A17 /* OutlineGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447B92E000E3900E10A17 /* OutlineGroupView.swift */; };
@@ -72,6 +73,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC0253052E28F26000504074 /* 2025_07_17_allowsHitTestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_17_allowsHitTestingView.swift; sourceTree = "<group>"; };
 		BC20279D2DF9926900B1CC27 /* SwiftSty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2027AA2DF9926B00B1CC27 /* SwiftStyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2027B42DF9926B00B1CC27 /* SwiftStyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -217,6 +219,7 @@
 		BCAC4C0E2E20F0D100E06946 /* 07 */ = {
 			isa = PBXGroup;
 			children = (
+				BC0253052E28F26000504074 /* 2025_07_17_allowsHitTestingView.swift */,
 				BCAC4C0A2E20ED7E00E06946 /* 2025_07_11_ScrollViewRepresentableView.swift */,
 				BCF8E49A2E20082E00B719FB /* 2025_07_10_PickerCustomView.swift */,
 				BCF8E4982E20037700B719FB /* DatePickerView.swift */,
@@ -460,6 +463,7 @@
 				BCF5AE1E2E09A30B0074E06A /* RefreshActionView.swift in Sources */,
 				BCF8E3BC2E1ADF2600B719FB /* StickyView.swift in Sources */,
 				BCA59B422DFDF7030001EF7D /* PointMarkView.swift in Sources */,
+				BC0253062E28F27700504074 /* 2025_07_17_allowsHitTestingView.swift in Sources */,
 				BCB3BFED2DFC772B001B2DDE /* multilineTextAlignment.swift in Sources */,
 				BCF8E47F2E1EB7A600B719FB /* onChangeView.swift in Sources */,
 				BCA59B442DFDFAE40001EF7D /* LineMarkView.swift in Sources */,
