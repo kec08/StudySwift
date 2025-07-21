@@ -24,8 +24,12 @@ struct PhaseAnimatorView: View {
           }
         }
       
-      Text("Qiri")
+      Text("Hello SwiftUI")
         .font(.title)
+        .phaseAnimator([false, true]) { content, phase in
+            content
+                .foregroundStyle(phase ? .red : .blue)
+        }
     }
     .phaseAnimator([false, true]) { content, phase in
       content
