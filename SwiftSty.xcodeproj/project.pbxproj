@@ -33,6 +33,8 @@
 		BCB3BFF12DFC7DCF001B2DDE /* lineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BFF02DFC7DCE001B2DDE /* lineSpacing.swift */; };
 		BCBEBCF32E0593B0006EFA81 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBEBCF22E0593AB006EFA81 /* OverlayView.swift */; };
 		BCE22D072E2E1A6100BBDD14 /* 2025_07_21_MagnifyGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE22D062E2E1A5500BBDD14 /* 2025_07_21_MagnifyGestureView.swift */; };
+		BCE22DAC2E2EB92500BBDD14 /* 2025_07_22_maskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE22DAB2E2EB90600BBDD14 /* 2025_07_22_maskView.swift */; };
+		BCE22DAE2E2EB9A900BBDD14 /* 2025_07_22_trimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE22DAD2E2EB9A900BBDD14 /* 2025_07_22_trimView.swift */; };
 		BCEE41562E0F34C9002AC57E /* AnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE41552E0F34B7002AC57E /* AnimationsView.swift */; };
 		BCF5AE182E084E4B0074E06A /* renderingModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5AE172E084E480074E06A /* renderingModeView.swift */; };
 		BCF5AE1C2E0995000074E06A /* refreshableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5AE1B2E0994F80074E06A /* refreshableView.swift */; };
@@ -104,6 +106,8 @@
 		BCB3BFF02DFC7DCE001B2DDE /* lineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineSpacing.swift; sourceTree = "<group>"; };
 		BCBEBCF22E0593AB006EFA81 /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 		BCE22D062E2E1A5500BBDD14 /* 2025_07_21_MagnifyGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_21_MagnifyGestureView.swift; sourceTree = "<group>"; };
+		BCE22DAB2E2EB90600BBDD14 /* 2025_07_22_maskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_22_maskView.swift; sourceTree = "<group>"; };
+		BCE22DAD2E2EB9A900BBDD14 /* 2025_07_22_trimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_22_trimView.swift; sourceTree = "<group>"; };
 		BCEE41552E0F34B7002AC57E /* AnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsView.swift; sourceTree = "<group>"; };
 		BCF5AE172E084E480074E06A /* renderingModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = renderingModeView.swift; sourceTree = "<group>"; };
 		BCF5AE1B2E0994F80074E06A /* refreshableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = refreshableView.swift; sourceTree = "<group>"; };
@@ -223,6 +227,8 @@
 		BCAC4C0E2E20F0D100E06946 /* 07 */ = {
 			isa = PBXGroup;
 			children = (
+				BCE22DAB2E2EB90600BBDD14 /* 2025_07_22_maskView.swift */,
+				BCE22DAD2E2EB9A900BBDD14 /* 2025_07_22_trimView.swift */,
 				BCE22D062E2E1A5500BBDD14 /* 2025_07_21_MagnifyGestureView.swift */,
 				BC0253072E2D2C4A00504074 /* 2025_07_20_BorderlessButtonStyleView.swift */,
 				BC0253052E28F26000504074 /* 2025_07_17_allowsHitTestingView.swift */,
@@ -467,6 +473,7 @@
 				BCF8E4602E1C2EC800B719FB /* MonospacedView.swift in Sources */,
 				BC0253082E2D2C5900504074 /* 2025_07_20_BorderlessButtonStyleView.swift in Sources */,
 				BCAC4C0B2E20ED8300E06946 /* 2025_07_11_ScrollViewRepresentableView.swift in Sources */,
+				BCE22DAC2E2EB92500BBDD14 /* 2025_07_22_maskView.swift in Sources */,
 				BCF5AE1E2E09A30B0074E06A /* RefreshActionView.swift in Sources */,
 				BCF8E3BC2E1ADF2600B719FB /* StickyView.swift in Sources */,
 				BCA59B422DFDF7030001EF7D /* PointMarkView.swift in Sources */,
@@ -481,6 +488,7 @@
 				BCF6671E2E0AF98600C8B475 /* TextView.swift in Sources */,
 				BCF5AE1C2E0995000074E06A /* refreshableView.swift in Sources */,
 				BCAB50992E06A85C002E5837 /* LazyHGridView.swift in Sources */,
+				BCE22DAE2E2EB9A900BBDD14 /* 2025_07_22_trimView.swift in Sources */,
 				BC2447B82DFFF9EE00E10A17 /* DisclosureGroupView.swift in Sources */,
 				BCEE41562E0F34C9002AC57E /* AnimationsView.swift in Sources */,
 				BCF667282E0B228C00C8B475 /* lineSpacingView.swift in Sources */,
