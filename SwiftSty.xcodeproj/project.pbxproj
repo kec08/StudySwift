@@ -13,6 +13,8 @@
 		BC2447B82DFFF9EE00E10A17 /* DisclosureGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447B72DFFF9EB00E10A17 /* DisclosureGroupView.swift */; };
 		BC2447BA2E000E3F00E10A17 /* OutlineGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447B92E000E3900E10A17 /* OutlineGroupView.swift */; };
 		BC2447BC2E0030FB00E10A17 /* ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447BB2E0030F000E10A17 /* ScrollViewReader.swift */; };
+		BC75B5292E2FEF4F00C6BF9B /* 2025_07_23_shadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75B5282E2FEF4200C6BF9B /* 2025_07_23_shadowView.swift */; };
+		BC75B52B2E2FF09200C6BF9B /* 2025_07_23_blurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75B52A2E2FF07B00C6BF9B /* 2025_07_23_blurView.swift */; };
 		BCA59B3D2DFDC4980001EF7D /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA59B3C2DFDC4960001EF7D /* TabView.swift */; };
 		BCA59B3F2DFDE48E0001EF7D /* BarMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA59B3E2DFDE4890001EF7D /* BarMarkView.swift */; };
 		BCA59B422DFDF7030001EF7D /* PointMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA59B412DFDF6FF0001EF7D /* PointMarkView.swift */; };
@@ -86,6 +88,8 @@
 		BC2447B72DFFF9EB00E10A17 /* DisclosureGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupView.swift; sourceTree = "<group>"; };
 		BC2447B92E000E3900E10A17 /* OutlineGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupView.swift; sourceTree = "<group>"; };
 		BC2447BB2E0030F000E10A17 /* ScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader.swift; sourceTree = "<group>"; };
+		BC75B5282E2FEF4200C6BF9B /* 2025_07_23_shadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_23_shadowView.swift; sourceTree = "<group>"; };
+		BC75B52A2E2FF07B00C6BF9B /* 2025_07_23_blurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_23_blurView.swift; sourceTree = "<group>"; };
 		BCA59B3C2DFDC4960001EF7D /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		BCA59B3E2DFDE4890001EF7D /* BarMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarMarkView.swift; sourceTree = "<group>"; };
 		BCA59B412DFDF6FF0001EF7D /* PointMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointMarkView.swift; sourceTree = "<group>"; };
@@ -227,6 +231,8 @@
 		BCAC4C0E2E20F0D100E06946 /* 07 */ = {
 			isa = PBXGroup;
 			children = (
+				BC75B52A2E2FF07B00C6BF9B /* 2025_07_23_blurView.swift */,
+				BC75B5282E2FEF4200C6BF9B /* 2025_07_23_shadowView.swift */,
 				BCE22DAB2E2EB90600BBDD14 /* 2025_07_22_maskView.swift */,
 				BCE22DAD2E2EB9A900BBDD14 /* 2025_07_22_trimView.swift */,
 				BCE22D062E2E1A5500BBDD14 /* 2025_07_21_MagnifyGestureView.swift */,
@@ -486,6 +492,7 @@
 				BCAB50972E06A7A5002E5837 /* LazyVGridView.swift in Sources */,
 				BCF8E49B2E20084100B719FB /* 2025_07_10_PickerCustomView.swift in Sources */,
 				BCF6671E2E0AF98600C8B475 /* TextView.swift in Sources */,
+				BC75B5292E2FEF4F00C6BF9B /* 2025_07_23_shadowView.swift in Sources */,
 				BCF5AE1C2E0995000074E06A /* refreshableView.swift in Sources */,
 				BCAB50992E06A85C002E5837 /* LazyHGridView.swift in Sources */,
 				BCE22DAE2E2EB9A900BBDD14 /* 2025_07_22_trimView.swift in Sources */,
@@ -497,6 +504,7 @@
 				BCF8E4622E1C2F2C00B719FB /* MonospacedDigitView.swift in Sources */,
 				BCA59B3D2DFDC4980001EF7D /* TabView.swift in Sources */,
 				BCFDF4442E0322F0002AE09E /* PinnedScrollableViews.swift in Sources */,
+				BC75B52B2E2FF09200C6BF9B /* 2025_07_23_blurView.swift in Sources */,
 				BCE22D072E2E1A6100BBDD14 /* 2025_07_21_MagnifyGestureView.swift in Sources */,
 				BCB3BFE92DFBD02E001B2DDE /* swipeActions.swift in Sources */,
 				BCA59B4A2DFDFEAE0001EF7D /* RectangleMarkView.swift in Sources */,
