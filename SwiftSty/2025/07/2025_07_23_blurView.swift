@@ -10,13 +10,13 @@ import SwiftUI
 struct blurView: View {
   var body: some View {
     VStack {
-      Text("Green is Green")
+      Text("Hi Swift!")
         .blur(radius: 3, opaque: true)
       
-      Text("Green is Green")
+      Text("Hi eunchan!")
         .blur(radius: 3)
       
-      Color.green
+      Color.gray
         .frame(width: 50, height: 50)
         .blur(radius: 3)
     }

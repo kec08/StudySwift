@@ -15,6 +15,8 @@
 		BC2447BC2E0030FB00E10A17 /* ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447BB2E0030F000E10A17 /* ScrollViewReader.swift */; };
 		BC75B5292E2FEF4F00C6BF9B /* 2025_07_23_shadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75B5282E2FEF4200C6BF9B /* 2025_07_23_shadowView.swift */; };
 		BC75B52B2E2FF09200C6BF9B /* 2025_07_23_blurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75B52A2E2FF07B00C6BF9B /* 2025_07_23_blurView.swift */; };
+		BC75B52D2E3147D100C6BF9B /* 2025_07_24_ChipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75B52C2E3147C600C6BF9B /* 2025_07_24_ChipsView.swift */; };
+		BC75B52F2E3148F000C6BF9B /* 2025_07_24_ChipsContainerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75B52E2E3148E100C6BF9B /* 2025_07_24_ChipsContainerMainView.swift */; };
 		BCA59B3D2DFDC4980001EF7D /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA59B3C2DFDC4960001EF7D /* TabView.swift */; };
 		BCA59B3F2DFDE48E0001EF7D /* BarMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA59B3E2DFDE4890001EF7D /* BarMarkView.swift */; };
 		BCA59B422DFDF7030001EF7D /* PointMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA59B412DFDF6FF0001EF7D /* PointMarkView.swift */; };
@@ -90,6 +92,8 @@
 		BC2447BB2E0030F000E10A17 /* ScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader.swift; sourceTree = "<group>"; };
 		BC75B5282E2FEF4200C6BF9B /* 2025_07_23_shadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_23_shadowView.swift; sourceTree = "<group>"; };
 		BC75B52A2E2FF07B00C6BF9B /* 2025_07_23_blurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_23_blurView.swift; sourceTree = "<group>"; };
+		BC75B52C2E3147C600C6BF9B /* 2025_07_24_ChipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_24_ChipsView.swift; sourceTree = "<group>"; };
+		BC75B52E2E3148E100C6BF9B /* 2025_07_24_ChipsContainerMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_24_ChipsContainerMainView.swift; sourceTree = "<group>"; };
 		BCA59B3C2DFDC4960001EF7D /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		BCA59B3E2DFDE4890001EF7D /* BarMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarMarkView.swift; sourceTree = "<group>"; };
 		BCA59B412DFDF6FF0001EF7D /* PointMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointMarkView.swift; sourceTree = "<group>"; };
@@ -231,6 +235,8 @@
 		BCAC4C0E2E20F0D100E06946 /* 07 */ = {
 			isa = PBXGroup;
 			children = (
+				BC75B52E2E3148E100C6BF9B /* 2025_07_24_ChipsContainerMainView.swift */,
+				BC75B52C2E3147C600C6BF9B /* 2025_07_24_ChipsView.swift */,
 				BC75B52A2E2FF07B00C6BF9B /* 2025_07_23_blurView.swift */,
 				BC75B5282E2FEF4200C6BF9B /* 2025_07_23_shadowView.swift */,
 				BCE22DAB2E2EB90600BBDD14 /* 2025_07_22_maskView.swift */,
@@ -473,6 +479,7 @@
 				BC2447BC2E0030FB00E10A17 /* ScrollViewReader.swift in Sources */,
 				BCA59B462DFDFC030001EF7D /* AreaMarkView.swift in Sources */,
 				BCB3BFE82DFBD02E001B2DDE /* SwiftStyApp.swift in Sources */,
+				BC75B52F2E3148F000C6BF9B /* 2025_07_24_ChipsContainerMainView.swift in Sources */,
 				BCBEBCF32E0593B0006EFA81 /* OverlayView.swift in Sources */,
 				BCF8E3142E19890200B719FB /* TooltipShapeView.swift in Sources */,
 				BCF667262E0B1DA400C8B475 /* SpacingView.swift in Sources */,
@@ -487,6 +494,7 @@
 				BCB3BFED2DFC772B001B2DDE /* multilineTextAlignment.swift in Sources */,
 				BCF8E47F2E1EB7A600B719FB /* onChangeView.swift in Sources */,
 				BCA59B442DFDFAE40001EF7D /* LineMarkView.swift in Sources */,
+				BC75B52D2E3147D100C6BF9B /* 2025_07_24_ChipsView.swift in Sources */,
 				BC2447382DFF0B4700E10A17 /* redactedView.swift in Sources */,
 				BCFBC8512E0D2D0F0033E563 /* HCalendarView.swift in Sources */,
 				BCAB50972E06A7A5002E5837 /* LazyVGridView.swift in Sources */,

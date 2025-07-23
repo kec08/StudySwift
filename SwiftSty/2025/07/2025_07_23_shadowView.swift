@@ -8,31 +8,37 @@
 import SwiftUI
 
 struct shadowView: View {
-  let steps = [0, 10, 20]
-  
-  var body: some View {
-    VStack(spacing: 50) {
-      ForEach(steps, id: \.self) { offset in
-        HStack(spacing: 50) {
-          ForEach(steps, id: \.self) { radius in
-            Color.green
-              .shadow(
-                color: .gray,
-                radius: CGFloat(radius),
-                x: CGFloat(offset), y: CGFloat(offset))
-              .overlay {
-                VStack {
-                  Text("\(radius)")
-                  Text("(\(offset), \(offset))")
+    let steps = [0, 10, 20]
+    
+    var body: some View {
+        VStack(spacing: 50) {
+            ForEach(steps, id: \.self) { offset in
+                HStack(spacing: 50) {
+                    ForEach(steps, id: \.self) { radius in
+                        Color.green
+                            .frame(width: 60, height: 60)
+                            .shadow(
+                                color: .gray,
+                                radius: CGFloat(radius),
+                                x: CGFloat(offset),
+                                y: CGFloat(offset)
+                            )
+                            .overlay {
+                                VStack {
+                                    Text("R:\(radius)")
+                                    Text("(\(offset), \(offset))")
+                                }
+                                .foregroundColor(.black)
+                                .font(.caption)
+                            }
+                    }
                 }
-              }
-          }
+            }
         }
-      }
+        .padding()
     }
-    .padding(.horizontal, 20)
-  }
 }
+
 
 #Preview {
     shadowView()
