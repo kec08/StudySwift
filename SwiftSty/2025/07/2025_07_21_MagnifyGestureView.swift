@@ -9,25 +9,27 @@ import SwiftUI
 
 struct MagnifyGestureView: View {
     @State private var scale = 3.0
-      @GestureState private var magnification = 1.0
+    @GestureState private var magnification = 1.0
 
-      var magnificationGesture: some Gesture {
+    var magnificationGesture: some Gesture {
         MagnifyGesture()
-          .updating($magnification) { value, gestureState, transaction in
-            gestureState = value.magnification
-          }
-          .onEnded { value in
-            self.scale *= value.magnification
-          }
-      }
-      
-      var body: some View {
-        Circle()
-          .frame(width: 100, height: 100)
-          .scaleEffect(scale * magnification)
-          .gesture(magnificationGesture)
-      }
+            .updating($magnification) { value, gestureState, _ in
+                gestureState = value.magnification
+            }
+            .onEnded { value in
+                self.scale *= value.magnification
+            }
     }
+
+    var body: some View {
+        Circle()
+            .fill(.green)
+            .frame(width: 100, height: 100)
+            .scaleEffect(scale * magnification)
+            .gesture(magnificationGesture)
+    }
+}
+
 
 #Preview{
     MagnifyGestureView()
