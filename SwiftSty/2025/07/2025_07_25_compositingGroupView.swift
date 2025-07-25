@@ -9,6 +9,34 @@ import SwiftUI
 
 struct compositingGroupView: View {
   var body: some View {
+      ZStack {
+          Rectangle()
+              .fill(Color.green)
+              .frame(width: 150, height: 150)
+          
+          Rectangle()
+              .fill(Color.yellow)
+              .frame(width: 150, height: 150)
+              .offset(x: 100)
+      }
+      .opacity(0.5)
+      
+
+      ZStack {
+          Text("SwiftUI")
+              .foregroundColor(.white)
+              .padding()
+              .background(Color.blue)
+
+          Text("SwiftUI")
+              .blur(radius: 3)
+      }
+      .padding(.top, 30)
+      .padding(.bottom, 30)
+      .compositingGroup()
+      .opacity(0.6)
+
+      
       VStack {
         ZStack {
           Text("CompositingGroup")
