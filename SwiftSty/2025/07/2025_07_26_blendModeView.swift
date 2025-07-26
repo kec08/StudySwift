@@ -9,25 +9,29 @@ import SwiftUI
 
 struct blendModeView: View {
   var body: some View {
-//    HStack {
-//      Color.yellow.frame(width: 50, height: 50, alignment: .center)
-//      
-//      
-//      Color.red.frame(width: 50, height: 50, alignment: .center)
-//        .rotationEffect(.degrees(45))
-//        .padding(-20)
-//        .blendMode(.colorBurn)
-//    }
-//      
-//      HStack {
-//            Color.red.frame(width: 50, height: 50, alignment: .center)
-//              .rotationEffect(.degrees(45))
-//              .blendMode(.colorBurn)
-//            
-//            Color.yellow.frame(width: 50, height: 50, alignment: .center)
-//              .padding(-20)
-//            
-//          }
+      HStack {
+          Color.yellow.frame(width: 50, height: 50)
+          
+          Color.red
+              .frame(width: 50, height: 50)
+              .rotationEffect(.degrees(45))
+              .padding(-20)
+              .blendMode(.colorBurn)
+
+      }
+      
+      HStack {
+          Color.red
+              .frame(width: 50, height: 50)
+              .rotationEffect(.degrees(45))
+              .blendMode(.colorBurn)
+          
+          Color.yellow
+              .frame(width: 50, height: 50)
+              .padding(-20)
+      }
+
+      
       
       
       ZStack {

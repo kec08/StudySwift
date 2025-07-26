@@ -17,6 +17,7 @@
 		BC75B52B2E2FF09200C6BF9B /* 2025_07_23_blurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75B52A2E2FF07B00C6BF9B /* 2025_07_23_blurView.swift */; };
 		BC75B52D2E3147D100C6BF9B /* 2025_07_24_ChipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75B52C2E3147C600C6BF9B /* 2025_07_24_ChipsView.swift */; };
 		BC75B52F2E3148F000C6BF9B /* 2025_07_24_ChipsContainerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75B52E2E3148E100C6BF9B /* 2025_07_24_ChipsContainerMainView.swift */; };
+		BCA2565C2E353EAB00F51289 /* 2025_07_27_ShareLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA2565B2E353E9F00F51289 /* 2025_07_27_ShareLinkView.swift */; };
 		BCA59B3D2DFDC4980001EF7D /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA59B3C2DFDC4960001EF7D /* TabView.swift */; };
 		BCA59B3F2DFDE48E0001EF7D /* BarMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA59B3E2DFDE4890001EF7D /* BarMarkView.swift */; };
 		BCA59B422DFDF7030001EF7D /* PointMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA59B412DFDF6FF0001EF7D /* PointMarkView.swift */; };
@@ -96,6 +97,7 @@
 		BC75B52A2E2FF07B00C6BF9B /* 2025_07_23_blurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_23_blurView.swift; sourceTree = "<group>"; };
 		BC75B52C2E3147C600C6BF9B /* 2025_07_24_ChipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_24_ChipsView.swift; sourceTree = "<group>"; };
 		BC75B52E2E3148E100C6BF9B /* 2025_07_24_ChipsContainerMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_24_ChipsContainerMainView.swift; sourceTree = "<group>"; };
+		BCA2565B2E353E9F00F51289 /* 2025_07_27_ShareLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_27_ShareLinkView.swift; sourceTree = "<group>"; };
 		BCA59B3C2DFDC4960001EF7D /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		BCA59B3E2DFDE4890001EF7D /* BarMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarMarkView.swift; sourceTree = "<group>"; };
 		BCA59B412DFDF6FF0001EF7D /* PointMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointMarkView.swift; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 		BCAC4C0E2E20F0D100E06946 /* 07 */ = {
 			isa = PBXGroup;
 			children = (
+				BCA2565B2E353E9F00F51289 /* 2025_07_27_ShareLinkView.swift */,
 				BCBDDD0B2E33E8F4007C51F7 /* 2025_07_26_blendModeView.swift */,
 				BCF39E932E328FF000E1FCF2 /* 2025_07_25_compositingGroupView.swift */,
 				BC75B52E2E3148E100C6BF9B /* 2025_07_24_ChipsContainerMainView.swift */,
@@ -496,6 +499,7 @@
 				BCE22DAC2E2EB92500BBDD14 /* 2025_07_22_maskView.swift in Sources */,
 				BCF5AE1E2E09A30B0074E06A /* RefreshActionView.swift in Sources */,
 				BCF8E3BC2E1ADF2600B719FB /* StickyView.swift in Sources */,
+				BCA2565C2E353EAB00F51289 /* 2025_07_27_ShareLinkView.swift in Sources */,
 				BCA59B422DFDF7030001EF7D /* PointMarkView.swift in Sources */,
 				BC0253062E28F27700504074 /* 2025_07_17_allowsHitTestingView.swift in Sources */,
 				BCF39E942E32900100E1FCF2 /* 2025_07_25_compositingGroupView.swift in Sources */,
