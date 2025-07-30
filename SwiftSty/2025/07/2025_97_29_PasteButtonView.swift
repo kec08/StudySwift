@@ -10,28 +10,25 @@ import SwiftUI
 struct PasteButtonView: View {
   @State private var pastedText: String = ""
   @State private var inputText: String = ""
-  
+
   var body: some View {
     VStack(spacing: 20) {
-      TextField("텍스트를 입력하세요!", text: $inputText)
-      
+      TextField("텍스트를 입력하세요", text: $inputText)
+        .textFieldStyle(.roundedBorder)
+
       HStack {
-          PasteButton(payloadType: String.self) { strings in
-            pastedText = strings[0]
-          }
-          .buttonBorderShape(.capsule)
-          .labelStyle(.iconOnly)
-          .tint(.green)
-        
+        PasteButton(payloadType: String.self) { strings in
+          pastedText = strings[0]
+        }
+
         Divider()
-        
+
         Text(pastedText)
-        
         Spacer()
       }
+      .frame(height: 40)
     }
-    .frame(height: 100)
-    .padding(.all)
+    .padding()
   }
 }
 
