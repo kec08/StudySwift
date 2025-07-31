@@ -170,6 +170,11 @@
 			path = animations;
 			sourceTree = "<group>";
 		};
+		BCC1CDAA2E3BC87100AD07C4 /* 08 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 08;
+			sourceTree = "<group>";
+		};
 		BCD71CE42E0C36CA0070ADC9 /* VideoPlayer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = VideoPlayer;
@@ -238,6 +243,7 @@
 		BCAC4C0D2E20F0A200E06946 /* 2025 */ = {
 			isa = PBXGroup;
 			children = (
+				BCC1CDAA2E3BC87100AD07C4 /* 08 */,
 				BCAC4C0E2E20F0D100E06946 /* 07 */,
 				BCD71CE42E0C36CA0070ADC9 /* VideoPlayer */,
 				BCB3BFEB2DFC771D001B2DDE /* UI */,
@@ -357,6 +363,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				BC756E912E1193A000B07C89 /* animations */,
+				BCC1CDAA2E3BC87100AD07C4 /* 08 */,
 				BCD71CE42E0C36CA0070ADC9 /* VideoPlayer */,
 			);
 			name = SwiftSty;
