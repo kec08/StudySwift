@@ -8,40 +8,38 @@
 import SwiftUI
 
 struct DragDropView: View {
-  var content: String = "green"
-  @State private var dropText: String = "Drop Here"
-  @State private var isDisplayGreenRectangle: Bool = true
-  
-  var body: some View {
-    VStack(spacing: 50) {
-      if isDisplayGreenRectangle {
-        Color.green
-          .frame(width: 200, height: 200)
-          .draggable(content) {
-            Text(content)
-              .background(Color.green)
+    var content = "ssilvv"
+      @State private var dropText = "Drop Here"
+      @State private var showGreenBox = true
+
+      var body: some View {
+        VStack(spacing: 50) {
+          if showGreenBox {
+            Color.gray
+              .frame(width: 200, height: 200)
+              .draggable(content) {
+                Text("📱 \(content)")
+                  .padding()
+                  .background(Color.gray)
+              }
           }
-      }
-      
-      Text(dropText)
-        .font(.title)
-        .frame(width: 200, height: 200)
-        .border(.black)
-        .background(isDisplayGreenRectangle ? .white : .green)
-        .dropDestination(for: String.self) { receivedTitles, location in
-          process(titles: receivedTitles)
-          return true
+
+          Text(dropText)
+            .font(.title)
+            .frame(width: 200, height: 200)
+            .border(.black)
+            .background(showGreenBox ? Color.white : Color.gray)
+            .dropDestination(for: String.self) { items, location in
+              withAnimation {
+                dropText = items.first ?? "What"
+                showGreenBox = false
+              }
+              return true
+            }
         }
-    }
+        .padding()
+      }
   }
-  
-  func process(titles: [String]) {
-    withAnimation {
-      dropText = titles.first ?? "What"
-      isDisplayGreenRectangle.toggle()
-    }
-  }
-}
 
 #Preview {
     DragDropView()
