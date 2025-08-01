@@ -17,43 +17,60 @@ struct DisclosurePerson: Identifiable, Equatable {
 }
 
 struct DisclosureTableView: View {
-  @State var people: [DisclosurePerson] = [
-    .init(
-      name: "green",
-      city: "seoul",
-      hobby: "movie",
-      friends: [
-        .init(name: "brown", city: "osaka", hobby: "football"),
-        .init(name: "black", city: "tokyo", hobby: "soccer"),
-        .init(name: "white", city: "busan", hobby: "movie"),
-        .init(name: "purple", city: "daegu", hobby: "football")
-      ]
-    ),
-    .init(name: "red", city: "tokyo", hobby: "soccer"),
-    .init(name: "blue", city: "busan", hobby: "tennis"),
-    .init(name: "yellow", city: "ulsan", hobby: "cook")
-  ]
-  
-  @State private var bookmarksExpanded = false
-  
-  var body: some View {
-    Table(of: DisclosurePerson.self) {
-      TableColumn("Name", value: \.name)
-      TableColumn("City", value: \.city)
-      TableColumn("Hobby", value: \.hobby)
-    } rows: {
-      ForEach(people) { person in
-        if person.friends.isEmpty {
-          TableRow(person)
-        } else {
-          DisclosureTableRow(person) {
-            ForEach(person.friends)
-          }
-        }
-      }
-    }
-  }
-}
+    @State var people: [DisclosurePerson] = [
+       .init(
+         name: "green",
+         city: "seoul",
+         hobby: "movie",
+         friends: [
+           .init(name: "brown", city: "osaka", hobby: "football"),
+           .init(name: "black", city: "tokyo", hobby: "soccer"),
+           .init(name: "white", city: "busan", hobby: "movie"),
+           .init(name: "purple", city: "daegu", hobby: "football")
+         ]
+       ),
+       .init(name: "red", city: "tokyo", hobby: "soccer"),
+       .init(name: "blue", city: "busan", hobby: "tennis"),
+       .init(name: "yellow", city: "ulsan", hobby: "cook")
+     ]
+     
+     @State private var bookmarksExpanded = false
+     
+     var body: some View {
+       Table(of: DisclosurePerson.self) {
+         TableColumn("Name", value: \.name)
+         TableColumn("City", value: \.city)
+         TableColumn("Hobby", value: \.hobby)
+       } rows: {
+         ForEach(people) { person in
+           if person.friends.isEmpty {
+             TableRow(person)
+               //핵심코드
+               .contextMenu {
+                 Button("Edit") {
+                 }
+                 Button("See Details") {
+                 }
+                 Divider()
+                 Button("Delete", role: .destructive) {
+                   delete(person)
+                 }
+               }
+           } else {
+             DisclosureTableRow(person) {
+               ForEach(person.friends)
+             }
+           }
+         }
+       }
+     }
+    //핵심코드
+     func delete(_ person: DisclosurePerson) {
+       if let index = people.firstIndex(of: person) {
+         people.remove(at: index)
+       }
+     }
+   }
 
 #Preview {
     DisclosureTableView()
