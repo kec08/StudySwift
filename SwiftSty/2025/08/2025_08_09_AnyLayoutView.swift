@@ -8,30 +8,28 @@
 import SwiftUI
 
 struct RandomXVStackLayout: Layout {
-  var spacing: CGFloat
-  
-  func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout [CGFloat]) -> CGSize {
-    let sizes = subviews.map { $0.sizeThatFits(.unspecified) }
-    let maxWidth = sizes.map { $0.width }.max() ?? 0
-    let totalHeight = sizes.map { $0.height }.reduce(0) { $0 + $1 } + spacing * CGFloat(subviews.count - 1)
-    return CGSize(width: proposal.width ?? maxWidth, height: totalHeight)
-  }
-  
-  func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout [CGFloat]) {
-    var y = bounds.minY
+    var spacing: CGFloat
     
-    for (index, subview) in subviews.enumerated() {
-      let size = subview.sizeThatFits(.unspecified)
-      let randomX = bounds.minX + (bounds.width - size.width) * cache[index]
-      let point = CGPoint(x: randomX, y: y)
-      subview.place(at: point, anchor: .topLeading, proposal: ProposedViewSize(size))
-      y += size.height + spacing
+    func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout [CGFloat]) -> CGSize {
+        let sizes = subviews.map { $0.sizeThatFits(.unspecified) }
+        let maxWidth = sizes.map { $0.width }.max() ?? 0
+        let totalHeight = sizes.map { $0.height }.reduce(0, +) + spacing * CGFloat(subviews.count - 1)
+        return CGSize(width: proposal.width ?? maxWidth, height: totalHeight)
     }
-  }
-  
-  func makeCache(subviews: Subviews) -> [CGFloat] {
-    subviews.map { _ in CGFloat.random(in: 0...1) }
-  }
+    
+    func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout [CGFloat]) {
+        var y = bounds.minY
+        for (index, subview) in subviews.enumerated() {
+            let size = subview.sizeThatFits(.unspecified)
+            let randomX = bounds.minX + (bounds.width - size.width) * cache[index]
+            subview.place(at: CGPoint(x: randomX, y: y), anchor: .topLeading, proposal: ProposedViewSize(size))
+            y += size.height + spacing
+        }
+    }
+    
+    func makeCache(subviews: Subviews) -> [CGFloat] {
+        subviews.map { _ in CGFloat.random(in: 0...1) }
+    }
 }
 
 struct AnyLayoutView: View {
