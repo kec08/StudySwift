@@ -125,7 +125,7 @@ struct StrokedTextView: View {
     StrokedText(
       text: "Hello, Eunchan!",
       strokeWidth: 5,
-      strokeColor: .black,
+      strokeColor: .systemPink,
       foregroundColor: .white,
       font: .systemFont(ofSize: 24, weight: .bold),
       numberOfLines: 1,
