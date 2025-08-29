@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Lottie: View {
   var body: some View {
-    LottieView(animation: "rocket")
+    LottieView(animation: "Ai_load")
       .frame(width: 400, height: 400)
   }
 }
