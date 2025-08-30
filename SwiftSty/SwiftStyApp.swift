@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftStyApp: App {
     var body: some Scene {
         WindowGroup {
-            DragDropView()
+            SleepDataView()
         }
     }
 }
