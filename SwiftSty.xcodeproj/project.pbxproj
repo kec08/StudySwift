@@ -28,6 +28,7 @@
 		BCA59B482DFDFDCC0001EF7D /* RuleMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA59B472DFDFDCB0001EF7D /* RuleMarkView.swift */; };
 		BCA59B4A2DFDFEAE0001EF7D /* RectangleMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA59B492DFDFEAB0001EF7D /* RectangleMarkView.swift */; };
 		BCA59B4E2DFE71C80001EF7D /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA59B4D2DFE71C80001EF7D /* NavigationStackView.swift */; };
+		BCA6C5992E65EB6B0002FCF0 /* 2025_09_01_VisionOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6C5982E65EB590002FCF0 /* 2025_09_01_VisionOSApp.swift */; };
 		BCAA73CA2E5CD3C1000DDABA /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BCAA73C92E5CD3C1000DDABA /* Lottie */; };
 		BCAB50972E06A7A5002E5837 /* LazyVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB50962E06A7A2002E5837 /* LazyVGridView.swift */; };
 		BCAB50992E06A85C002E5837 /* LazyHGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB50982E06A859002E5837 /* LazyHGridView.swift */; };
@@ -126,6 +127,7 @@
 		BCA59B472DFDFDCB0001EF7D /* RuleMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleMarkView.swift; sourceTree = "<group>"; };
 		BCA59B492DFDFEAB0001EF7D /* RectangleMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleMarkView.swift; sourceTree = "<group>"; };
 		BCA59B4D2DFE71C80001EF7D /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
+		BCA6C5982E65EB590002FCF0 /* 2025_09_01_VisionOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_09_01_VisionOSApp.swift; sourceTree = "<group>"; };
 		BCAB50962E06A7A2002E5837 /* LazyVGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridView.swift; sourceTree = "<group>"; };
 		BCAB50982E06A859002E5837 /* LazyHGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridView.swift; sourceTree = "<group>"; };
 		BCAC4C0A2E20ED7E00E06946 /* 2025_07_11_ScrollViewRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_11_ScrollViewRepresentableView.swift; sourceTree = "<group>"; };
@@ -224,6 +226,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC0818D62E6526C400BC0C50 /* 09 */ = {
+			isa = PBXGroup;
+			children = (
+				BCA6C5982E65EB590002FCF0 /* 2025_09_01_VisionOSApp.swift */,
+			);
+			path = 09;
+			sourceTree = "<group>";
+		};
 		BC2027942DF9926900B1CC27 = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +278,7 @@
 		BCAC4C0D2E20F0A200E06946 /* 2025 */ = {
 			isa = PBXGroup;
 			children = (
+				BC0818D62E6526C400BC0C50 /* 09 */,
 				BCC1CDAA2E3BC87100AD07C4 /* 08 */,
 				BCAC4C0E2E20F0D100E06946 /* 07 */,
 				BCD71CE42E0C36CA0070ADC9 /* VideoPlayer */,
@@ -558,6 +569,7 @@
 				BCB3BFED2DFC772B001B2DDE /* multilineTextAlignment.swift in Sources */,
 				BCF8E47F2E1EB7A600B719FB /* onChangeView.swift in Sources */,
 				BCA59B442DFDFAE40001EF7D /* LineMarkView.swift in Sources */,
+				BCA6C5992E65EB6B0002FCF0 /* 2025_09_01_VisionOSApp.swift in Sources */,
 				BC75B52D2E3147D100C6BF9B /* 2025_07_24_ChipsView.swift in Sources */,
 				BC2447382DFF0B4700E10A17 /* redactedView.swift in Sources */,
 				BCFBC8512E0D2D0F0033E563 /* HCalendarView.swift in Sources */,
