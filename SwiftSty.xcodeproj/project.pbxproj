@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BC0253062E28F27700504074 /* 2025_07_17_allowsHitTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0253052E28F26000504074 /* 2025_07_17_allowsHitTestingView.swift */; };
 		BC0253082E2D2C5900504074 /* 2025_07_20_BorderlessButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0253072E2D2C4A00504074 /* 2025_07_20_BorderlessButtonStyleView.swift */; };
+		BC10DD4B2E69DB03008A302A /* 2025_09_04_GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10DD4A2E69DAF5008A302A /* 2025_09_04_GeometryReaderView.swift */; };
 		BC2447382DFF0B4700E10A17 /* redactedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447372DFF0B4500E10A17 /* redactedView.swift */; };
 		BC2447B82DFFF9EE00E10A17 /* DisclosureGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447B72DFFF9EB00E10A17 /* DisclosureGroupView.swift */; };
 		BC2447BA2E000E3F00E10A17 /* OutlineGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447B92E000E3900E10A17 /* OutlineGroupView.swift */; };
@@ -108,6 +109,7 @@
 /* Begin PBXFileReference section */
 		BC0253052E28F26000504074 /* 2025_07_17_allowsHitTestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_17_allowsHitTestingView.swift; sourceTree = "<group>"; };
 		BC0253072E2D2C4A00504074 /* 2025_07_20_BorderlessButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_20_BorderlessButtonStyleView.swift; sourceTree = "<group>"; };
+		BC10DD4A2E69DAF5008A302A /* 2025_09_04_GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_09_04_GeometryReaderView.swift; sourceTree = "<group>"; };
 		BC20279D2DF9926900B1CC27 /* SwiftSty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2027AA2DF9926B00B1CC27 /* SwiftStyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2027B42DF9926B00B1CC27 /* SwiftStyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -235,6 +237,7 @@
 		BC0818D62E6526C400BC0C50 /* 09 */ = {
 			isa = PBXGroup;
 			children = (
+				BC10DD4A2E69DAF5008A302A /* 2025_09_04_GeometryReaderView.swift */,
 				BCD814BF2E67F7710070D9B4 /* 2025_09_03 */,
 				BCD814BD2E675CB20070D9B4 /* 2025_09_02_PerformanceTestView.swift */,
 				BCA6C5982E65EB590002FCF0 /* 2025_09_01_VisionOSApp.swift */,
@@ -611,6 +614,7 @@
 				BCFDF4442E0322F0002AE09E /* PinnedScrollableViews.swift in Sources */,
 				BC75B52B2E2FF09200C6BF9B /* 2025_07_23_blurView.swift in Sources */,
 				BCA2565E2E36832E00F51289 /* 2025_07_28_ScrollOffsetView.swift in Sources */,
+				BC10DD4B2E69DB03008A302A /* 2025_09_04_GeometryReaderView.swift in Sources */,
 				BCE22D072E2E1A6100BBDD14 /* 2025_07_21_MagnifyGestureView.swift in Sources */,
 				BCA256602E37E0CD00F51289 /* 2025_07_29_PasteButtonView.swift in Sources */,
 				BCB3BFE92DFBD02E001B2DDE /* swipeActions.swift in Sources */,
