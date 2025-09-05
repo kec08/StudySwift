@@ -51,6 +51,7 @@
 		BCE22D072E2E1A6100BBDD14 /* 2025_07_21_MagnifyGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE22D062E2E1A5500BBDD14 /* 2025_07_21_MagnifyGestureView.swift */; };
 		BCE22DAC2E2EB92500BBDD14 /* 2025_07_22_maskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE22DAB2E2EB90600BBDD14 /* 2025_07_22_maskView.swift */; };
 		BCE22DAE2E2EB9A900BBDD14 /* 2025_07_22_trimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE22DAD2E2EB9A900BBDD14 /* 2025_07_22_trimView.swift */; };
+		BCE590282E6B42D5007F7852 /* 2025_09_06_ConcurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE590272E6B42B3007F7852 /* 2025_09_06_ConcurrencyView.swift */; };
 		BCEE41562E0F34C9002AC57E /* AnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE41552E0F34B7002AC57E /* AnimationsView.swift */; };
 		BCF39E942E32900100E1FCF2 /* 2025_07_25_compositingGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF39E932E328FF000E1FCF2 /* 2025_07_25_compositingGroupView.swift */; };
 		BCF5AE182E084E4B0074E06A /* renderingModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5AE172E084E480074E06A /* renderingModeView.swift */; };
@@ -153,6 +154,7 @@
 		BCE22D062E2E1A5500BBDD14 /* 2025_07_21_MagnifyGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_21_MagnifyGestureView.swift; sourceTree = "<group>"; };
 		BCE22DAB2E2EB90600BBDD14 /* 2025_07_22_maskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_22_maskView.swift; sourceTree = "<group>"; };
 		BCE22DAD2E2EB9A900BBDD14 /* 2025_07_22_trimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_22_trimView.swift; sourceTree = "<group>"; };
+		BCE590272E6B42B3007F7852 /* 2025_09_06_ConcurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_09_06_ConcurrencyView.swift; sourceTree = "<group>"; };
 		BCEE41552E0F34B7002AC57E /* AnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsView.swift; sourceTree = "<group>"; };
 		BCF345B62E608F08000B7196 /* SwiftSty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftSty.entitlements; sourceTree = "<group>"; };
 		BCF345B72E60905D000B7196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 		BC0818D62E6526C400BC0C50 /* 09 */ = {
 			isa = PBXGroup;
 			children = (
+				BCE590272E6B42B3007F7852 /* 2025_09_06_ConcurrencyView.swift */,
 				BC10DD4A2E69DAF5008A302A /* 2025_09_04_GeometryReaderView.swift */,
 				BCD814BF2E67F7710070D9B4 /* 2025_09_03 */,
 				BCD814BD2E675CB20070D9B4 /* 2025_09_02_PerformanceTestView.swift */,
@@ -569,6 +572,7 @@
 				BCB3BFE72DFBD02E001B2DDE /* ActivityView.swift in Sources */,
 				BCF8E4992E20037E00B719FB /* DatePickerView.swift in Sources */,
 				BCA59B482DFDFDCC0001EF7D /* RuleMarkView.swift in Sources */,
+				BCE590282E6B42D5007F7852 /* 2025_09_06_ConcurrencyView.swift in Sources */,
 				BC2447BC2E0030FB00E10A17 /* ScrollViewReader.swift in Sources */,
 				BCD814C32E67F7DB0070D9B4 /* parentsView.swift in Sources */,
 				BCA59B462DFDFC030001EF7D /* AreaMarkView.swift in Sources */,
