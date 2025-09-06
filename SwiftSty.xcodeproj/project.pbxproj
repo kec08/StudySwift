@@ -52,6 +52,9 @@
 		BCE22DAC2E2EB92500BBDD14 /* 2025_07_22_maskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE22DAB2E2EB90600BBDD14 /* 2025_07_22_maskView.swift */; };
 		BCE22DAE2E2EB9A900BBDD14 /* 2025_07_22_trimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE22DAD2E2EB9A900BBDD14 /* 2025_07_22_trimView.swift */; };
 		BCE590282E6B42D5007F7852 /* 2025_09_06_ConcurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE590272E6B42B3007F7852 /* 2025_09_06_ConcurrencyView.swift */; };
+		BCE5902A2E6C0B20007F7852 /* 2025_09_06_LifecycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE590292E6C0AF0007F7852 /* 2025_09_06_LifecycleView.swift */; };
+		BCE5902D2E6C164B007F7852 /* FirstTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE5902C2E6C1649007F7852 /* FirstTabView.swift */; };
+		BCE5902F2E6C1653007F7852 /* SecondTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE5902E2E6C1652007F7852 /* SecondTabView.swift */; };
 		BCEE41562E0F34C9002AC57E /* AnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE41552E0F34B7002AC57E /* AnimationsView.swift */; };
 		BCF39E942E32900100E1FCF2 /* 2025_07_25_compositingGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF39E932E328FF000E1FCF2 /* 2025_07_25_compositingGroupView.swift */; };
 		BCF5AE182E084E4B0074E06A /* renderingModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5AE172E084E480074E06A /* renderingModeView.swift */; };
@@ -155,6 +158,9 @@
 		BCE22DAB2E2EB90600BBDD14 /* 2025_07_22_maskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_22_maskView.swift; sourceTree = "<group>"; };
 		BCE22DAD2E2EB9A900BBDD14 /* 2025_07_22_trimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_22_trimView.swift; sourceTree = "<group>"; };
 		BCE590272E6B42B3007F7852 /* 2025_09_06_ConcurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_09_06_ConcurrencyView.swift; sourceTree = "<group>"; };
+		BCE590292E6C0AF0007F7852 /* 2025_09_06_LifecycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_09_06_LifecycleView.swift; sourceTree = "<group>"; };
+		BCE5902C2E6C1649007F7852 /* FirstTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabView.swift; sourceTree = "<group>"; };
+		BCE5902E2E6C1652007F7852 /* SecondTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabView.swift; sourceTree = "<group>"; };
 		BCEE41552E0F34B7002AC57E /* AnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsView.swift; sourceTree = "<group>"; };
 		BCF345B62E608F08000B7196 /* SwiftSty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftSty.entitlements; sourceTree = "<group>"; };
 		BCF345B72E60905D000B7196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -239,6 +245,7 @@
 		BC0818D62E6526C400BC0C50 /* 09 */ = {
 			isa = PBXGroup;
 			children = (
+				BCE5902B2E6C1633007F7852 /* 2025_09_06 */,
 				BCE590272E6B42B3007F7852 /* 2025_09_06_ConcurrencyView.swift */,
 				BC10DD4A2E69DAF5008A302A /* 2025_09_04_GeometryReaderView.swift */,
 				BCD814BF2E67F7710070D9B4 /* 2025_09_03 */,
@@ -395,6 +402,16 @@
 				BCD814C02E67F7900070D9B4 /* BindingView.swift */,
 			);
 			path = 2025_09_03;
+			sourceTree = "<group>";
+		};
+		BCE5902B2E6C1633007F7852 /* 2025_09_06 */ = {
+			isa = PBXGroup;
+			children = (
+				BCE5902E2E6C1652007F7852 /* SecondTabView.swift */,
+				BCE5902C2E6C1649007F7852 /* FirstTabView.swift */,
+				BCE590292E6C0AF0007F7852 /* 2025_09_06_LifecycleView.swift */,
+			);
+			path = 2025_09_06;
 			sourceTree = "<group>";
 		};
 		BCF8E4652E1C2FBA00B719FB /* monospaced */ = {
@@ -572,6 +589,7 @@
 				BCB3BFE72DFBD02E001B2DDE /* ActivityView.swift in Sources */,
 				BCF8E4992E20037E00B719FB /* DatePickerView.swift in Sources */,
 				BCA59B482DFDFDCC0001EF7D /* RuleMarkView.swift in Sources */,
+				BCE5902A2E6C0B20007F7852 /* 2025_09_06_LifecycleView.swift in Sources */,
 				BCE590282E6B42D5007F7852 /* 2025_09_06_ConcurrencyView.swift in Sources */,
 				BC2447BC2E0030FB00E10A17 /* ScrollViewReader.swift in Sources */,
 				BCD814C32E67F7DB0070D9B4 /* parentsView.swift in Sources */,
@@ -601,6 +619,7 @@
 				BCFBC8512E0D2D0F0033E563 /* HCalendarView.swift in Sources */,
 				BCD814BE2E675D110070D9B4 /* 2025_09_02_PerformanceTestView.swift in Sources */,
 				BCAB50972E06A7A5002E5837 /* LazyVGridView.swift in Sources */,
+				BCE5902D2E6C164B007F7852 /* FirstTabView.swift in Sources */,
 				BCF8E49B2E20084100B719FB /* 2025_07_10_PickerCustomView.swift in Sources */,
 				BCF6671E2E0AF98600C8B475 /* TextView.swift in Sources */,
 				BC75B5292E2FEF4F00C6BF9B /* 2025_07_23_shadowView.swift in Sources */,
@@ -609,6 +628,7 @@
 				BCE22DAE2E2EB9A900BBDD14 /* 2025_07_22_trimView.swift in Sources */,
 				BCC1CD742E3A951100AD07C4 /* 2025_07_31_onDragonDropView.swift in Sources */,
 				BC2447B82DFFF9EE00E10A17 /* DisclosureGroupView.swift in Sources */,
+				BCE5902F2E6C1653007F7852 /* SecondTabView.swift in Sources */,
 				BCEE41562E0F34C9002AC57E /* AnimationsView.swift in Sources */,
 				BCF667282E0B228C00C8B475 /* lineSpacingView.swift in Sources */,
 				BCF8E3122E19745800B719FB /* NotificationView.swift in Sources */,

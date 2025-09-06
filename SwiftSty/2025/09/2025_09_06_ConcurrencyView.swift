@@ -7,6 +7,20 @@
 
 import SwiftUI
 
+
+struct MyStruct  {
+    var myResult: Date {
+        get async {
+            return await self.getTime()
+        }
+    }
+    
+    func getTime() async -> Date {
+        sleep(5)
+        return Date()
+    }
+}
+
 struct ConcurrencyView: View {
     var body: some View {
         Button(action: {
@@ -18,14 +32,27 @@ struct ConcurrencyView: View {
         }
     }
     
-    func doSomething() async {
-        print("Start \(Date())")
-        async let result = takesTooLong()
-        print("After async-let \(Date())")
-        //TODO
-        print("result = \(await result)")
-        print("End \(Date())")
+    var myResult: Date {
+        get async {
+            return await self.getTime()
+        }
     }
+    
+    func getTime() async -> Date {
+        sleep(5)
+        return Date()
+    }
+    
+    func doSomething() async {
+        
+        let myStruct = MyStruct()
+        
+        Task {
+            let date = await myStruct.myResult
+            
+        }
+    }
+    
     
     func takesTooLong() async -> Date {
         sleep(5)
