@@ -8,7 +8,6 @@
 
 import SwiftUI
 
-@main
 struct LifecycleView: App {
     
     @Environment(\.scenePhase) private var scenePhase

@@ -58,6 +58,8 @@
 		BCE590322E6C7F66007F7852 /* StorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE590312E6C7F4F007F7852 /* StorageView.swift */; };
 		BCE590342E6C811F007F7852 /* SceneStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE590332E6C811C007F7852 /* SceneStorageView.swift */; };
 		BCE590362E6C83FF007F7852 /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE590352E6C83FE007F7852 /* AppStorageView.swift */; };
+		BCE590382E6D86E3007F7852 /* 2025_09_08_AlignmentToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE590372E6D86C3007F7852 /* 2025_09_08_AlignmentToolView.swift */; };
+		BCE590412E6DD62C007F7852 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE590402E6DD61F007F7852 /* ListView.swift */; };
 		BCEE41562E0F34C9002AC57E /* AnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE41552E0F34B7002AC57E /* AnimationsView.swift */; };
 		BCF39E942E32900100E1FCF2 /* 2025_07_25_compositingGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF39E932E328FF000E1FCF2 /* 2025_07_25_compositingGroupView.swift */; };
 		BCF5AE182E084E4B0074E06A /* renderingModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5AE172E084E480074E06A /* renderingModeView.swift */; };
@@ -167,6 +169,8 @@
 		BCE590312E6C7F4F007F7852 /* StorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageView.swift; sourceTree = "<group>"; };
 		BCE590332E6C811C007F7852 /* SceneStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneStorageView.swift; sourceTree = "<group>"; };
 		BCE590352E6C83FE007F7852 /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
+		BCE590372E6D86C3007F7852 /* 2025_09_08_AlignmentToolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_09_08_AlignmentToolView.swift; sourceTree = "<group>"; };
+		BCE590402E6DD61F007F7852 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		BCEE41552E0F34B7002AC57E /* AnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsView.swift; sourceTree = "<group>"; };
 		BCF345B62E608F08000B7196 /* SwiftSty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftSty.entitlements; sourceTree = "<group>"; };
 		BCF345B72E60905D000B7196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -251,6 +255,7 @@
 		BC0818D62E6526C400BC0C50 /* 09 */ = {
 			isa = PBXGroup;
 			children = (
+				BCE5903F2E6DD612007F7852 /* 2025_09_08 */,
 				BCE590302E6C7F44007F7852 /* 2025_09_07 */,
 				BCE5902B2E6C1633007F7852 /* 2025_09_06 */,
 				BCE590272E6B42B3007F7852 /* 2025_09_06_ConcurrencyView.swift */,
@@ -431,6 +436,15 @@
 			path = 2025_09_07;
 			sourceTree = "<group>";
 		};
+		BCE5903F2E6DD612007F7852 /* 2025_09_08 */ = {
+			isa = PBXGroup;
+			children = (
+				BCE590402E6DD61F007F7852 /* ListView.swift */,
+				BCE590372E6D86C3007F7852 /* 2025_09_08_AlignmentToolView.swift */,
+			);
+			path = 2025_09_08;
+			sourceTree = "<group>";
+		};
 		BCF8E4652E1C2FBA00B719FB /* monospaced */ = {
 			isa = PBXGroup;
 			children = (
@@ -596,6 +610,7 @@
 				BC2447BA2E000E3F00E10A17 /* OutlineGroupView.swift in Sources */,
 				BCC1CD722E3A2CE800AD07C4 /* 2025_07_30_DragDropView.swift in Sources */,
 				BCD814C12E67F7B30070D9B4 /* BindingView.swift in Sources */,
+				BCE590382E6D86E3007F7852 /* 2025_09_08_AlignmentToolView.swift in Sources */,
 				BCE590342E6C811F007F7852 /* SceneStorageView.swift in Sources */,
 				BCF8E4642E1C2F7400B719FB /* FontMonospacedView.swift in Sources */,
 				BCFDF4482E039101002AE09E /* CustomTapGestureView.swift in Sources */,
@@ -662,6 +677,7 @@
 				BCE22D072E2E1A6100BBDD14 /* 2025_07_21_MagnifyGestureView.swift in Sources */,
 				BCA256602E37E0CD00F51289 /* 2025_07_29_PasteButtonView.swift in Sources */,
 				BCB3BFE92DFBD02E001B2DDE /* swipeActions.swift in Sources */,
+				BCE590412E6DD62C007F7852 /* ListView.swift in Sources */,
 				BCA59B4A2DFDFEAE0001EF7D /* RectangleMarkView.swift in Sources */,
 				BCA59B4E2DFE71C80001EF7D /* NavigationStackView.swift in Sources */,
 				BCB3BFF12DFC7DCF001B2DDE /* lineSpacing.swift in Sources */,
