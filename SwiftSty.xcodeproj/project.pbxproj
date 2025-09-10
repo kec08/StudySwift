@@ -14,6 +14,9 @@
 		BC2447B82DFFF9EE00E10A17 /* DisclosureGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447B72DFFF9EB00E10A17 /* DisclosureGroupView.swift */; };
 		BC2447BA2E000E3F00E10A17 /* OutlineGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447B92E000E3900E10A17 /* OutlineGroupView.swift */; };
 		BC2447BC2E0030FB00E10A17 /* ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447BB2E0030F000E10A17 /* ScrollViewReader.swift */; };
+		BC661C882E71E5360059739E /* NetflixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC661C872E71E5140059739E /* NetflixView.swift */; };
+		BC661C8A2E71E54D0059739E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC661C892E71E54C0059739E /* HomeView.swift */; };
+		BC661C8C2E71E55F0059739E /* Drama.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC661C8B2E71E55D0059739E /* Drama.swift */; };
 		BC75B5292E2FEF4F00C6BF9B /* 2025_07_23_shadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75B5282E2FEF4200C6BF9B /* 2025_07_23_shadowView.swift */; };
 		BC75B52B2E2FF09200C6BF9B /* 2025_07_23_blurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75B52A2E2FF07B00C6BF9B /* 2025_07_23_blurView.swift */; };
 		BC75B52D2E3147D100C6BF9B /* 2025_07_24_ChipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75B52C2E3147C600C6BF9B /* 2025_07_24_ChipsView.swift */; };
@@ -127,6 +130,9 @@
 		BC2447B72DFFF9EB00E10A17 /* DisclosureGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupView.swift; sourceTree = "<group>"; };
 		BC2447B92E000E3900E10A17 /* OutlineGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupView.swift; sourceTree = "<group>"; };
 		BC2447BB2E0030F000E10A17 /* ScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader.swift; sourceTree = "<group>"; };
+		BC661C872E71E5140059739E /* NetflixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixView.swift; sourceTree = "<group>"; };
+		BC661C892E71E54C0059739E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BC661C8B2E71E55D0059739E /* Drama.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drama.swift; sourceTree = "<group>"; };
 		BC75B5282E2FEF4200C6BF9B /* 2025_07_23_shadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_23_shadowView.swift; sourceTree = "<group>"; };
 		BC75B52A2E2FF07B00C6BF9B /* 2025_07_23_blurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_23_blurView.swift; sourceTree = "<group>"; };
 		BC75B52C2E3147C600C6BF9B /* 2025_07_24_ChipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_24_ChipsView.swift; sourceTree = "<group>"; };
@@ -257,6 +263,7 @@
 		BC0818D62E6526C400BC0C50 /* 09 */ = {
 			isa = PBXGroup;
 			children = (
+				BC661C862E71E5070059739E /* 2025_09_10 */,
 				BC8AD5822E70848A0059B366 /* 2025_09_09_MapKitView.swift */,
 				BCE5903F2E6DD612007F7852 /* 2025_09_08 */,
 				BCE590302E6C7F44007F7852 /* 2025_09_07 */,
@@ -289,6 +296,16 @@
 				BC2027B42DF9926B00B1CC27 /* SwiftStyUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BC661C862E71E5070059739E /* 2025_09_10 */ = {
+			isa = PBXGroup;
+			children = (
+				BC661C8B2E71E55D0059739E /* Drama.swift */,
+				BC661C892E71E54C0059739E /* HomeView.swift */,
+				BC661C872E71E5140059739E /* NetflixView.swift */,
+			);
+			path = 2025_09_10;
 			sourceTree = "<group>";
 		};
 		BCA59B402DFDF2CB0001EF7D /* Charts */ = {
@@ -632,6 +649,7 @@
 				BCA59B462DFDFC030001EF7D /* AreaMarkView.swift in Sources */,
 				BCB3BFE82DFBD02E001B2DDE /* SwiftStyApp.swift in Sources */,
 				BC75B52F2E3148F000C6BF9B /* 2025_07_24_ChipsContainerMainView.swift in Sources */,
+				BC661C8A2E71E54D0059739E /* HomeView.swift in Sources */,
 				BCBDDD0C2E33E909007C51F7 /* 2025_07_26_blendModeView.swift in Sources */,
 				BCBEBCF32E0593B0006EFA81 /* OverlayView.swift in Sources */,
 				BCF8E3142E19890200B719FB /* TooltipShapeView.swift in Sources */,
@@ -640,6 +658,7 @@
 				BC0253082E2D2C5900504074 /* 2025_07_20_BorderlessButtonStyleView.swift in Sources */,
 				BCAC4C0B2E20ED8300E06946 /* 2025_07_11_ScrollViewRepresentableView.swift in Sources */,
 				BCE22DAC2E2EB92500BBDD14 /* 2025_07_22_maskView.swift in Sources */,
+				BC661C8C2E71E55F0059739E /* Drama.swift in Sources */,
 				BCF5AE1E2E09A30B0074E06A /* RefreshActionView.swift in Sources */,
 				BCF8E3BC2E1ADF2600B719FB /* StickyView.swift in Sources */,
 				BCA2565C2E353EAB00F51289 /* 2025_07_27_ShareLinkView.swift in Sources */,
@@ -648,6 +667,7 @@
 				BCF39E942E32900100E1FCF2 /* 2025_07_25_compositingGroupView.swift in Sources */,
 				BCE590322E6C7F66007F7852 /* StorageView.swift in Sources */,
 				BCB3BFED2DFC772B001B2DDE /* multilineTextAlignment.swift in Sources */,
+				BC661C882E71E5360059739E /* NetflixView.swift in Sources */,
 				BCF8E47F2E1EB7A600B719FB /* onChangeView.swift in Sources */,
 				BCA59B442DFDFAE40001EF7D /* LineMarkView.swift in Sources */,
 				BCA6C5992E65EB6B0002FCF0 /* 2025_09_01_VisionOSApp.swift in Sources */,
