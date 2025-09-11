@@ -263,7 +263,7 @@
 		BC0818D62E6526C400BC0C50 /* 09 */ = {
 			isa = PBXGroup;
 			children = (
-				BC661C862E71E5070059739E /* 2025_09_10 */,
+				BC661C862E71E5070059739E /* 2025_09_10 ~ 11 */,
 				BC8AD5822E70848A0059B366 /* 2025_09_09_MapKitView.swift */,
 				BCE5903F2E6DD612007F7852 /* 2025_09_08 */,
 				BCE590302E6C7F44007F7852 /* 2025_09_07 */,
@@ -298,14 +298,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC661C862E71E5070059739E /* 2025_09_10 */ = {
+		BC661C862E71E5070059739E /* 2025_09_10 ~ 11 */ = {
 			isa = PBXGroup;
 			children = (
 				BC661C8B2E71E55D0059739E /* Drama.swift */,
 				BC661C892E71E54C0059739E /* HomeView.swift */,
 				BC661C872E71E5140059739E /* NetflixView.swift */,
 			);
-			path = 2025_09_10;
+			path = "2025_09_10 ~ 11";
 			sourceTree = "<group>";
 		};
 		BCA59B402DFDF2CB0001EF7D /* Charts */ = {

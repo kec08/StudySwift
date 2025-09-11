@@ -1,6 +1,6 @@
 //
 //  HomeView.swift
-//  SwiftSty
+//  NetflixThumbnail
 //
 //  Created by 김은찬 on 9/11/25.
 //
@@ -25,7 +25,7 @@ struct HomeView: View {
                 
                 Image(systemName: "magnifyingglass")
                     .resizable()
-                    .frame(width: 50, height: 50)
+                    .frame(width: 30, height: 30)
                     .padding()
             }
             
@@ -35,7 +35,6 @@ struct HomeView: View {
                     .cornerRadius(10)
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 300, height: 525)
-                
                 
                 
             } placeholder: {
@@ -87,7 +86,35 @@ struct HomeView: View {
                     }
 
             } else {
-                Text("dramas 장착완료")
+//                dramas = [drama1, darama2, drama3]
+//                drama1 = {
+//                    categoryTitle = "지금 뜨는 컨텐츠"
+//                    posters = [이미지주소1, 이미지 주소2]
+//                }
+                
+                ForEach(dramas, id: \.categoryTitle) { drama in
+                    VStack(alignment: .leading){
+                        Text(drama.categoryTitle)
+                            .font(.title)
+                        
+                        ScrollView(.horizontal) {
+                            HStack(spacing: 20) {
+                                ForEach(drama.posters, id: \.self) { posterUrlString in
+                                    let url = URL(string: posterUrlString)
+                                    AsyncImage(url: url) { image in
+                                        image
+                                            .resizable()
+                                    } placeholder: {
+                                        ProgressView()
+                                    }
+                                    .frame(width: 100, height: 175)
+                                    .cornerRadius(10)
+                                }
+                            }
+                            .padding(.horizontal)
+                        }
+                    }
+                }
             }
             
         }
@@ -99,3 +126,4 @@ struct HomeView: View {
 #Preview {
     HomeView()
 }
+
