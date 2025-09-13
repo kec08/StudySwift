@@ -52,7 +52,7 @@ struct CanvasView: UIViewRepresentable {
     
     func makeUIView(context: Context) -> PKCanvasView {
         canvas.isOpaque = false
-        canvas.backgroundColor = .blue.withAlphaComponent(0.5)
+        canvas.backgroundColor = .white
         
         toolPicker.setVisible(true, forFirstResponder: canvas)
         toolPicker.addObserver(canvas)
