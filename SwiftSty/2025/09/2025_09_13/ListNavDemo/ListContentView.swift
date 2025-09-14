@@ -63,5 +63,5 @@ struct ListCell: View {
 }
 
 #Preview {
-    ContentView()
+    ListContentView()
 }

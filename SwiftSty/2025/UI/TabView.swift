@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ListContentView: View {
     @State private var selection = 2
   var body: some View {
     TabView(selection: $selection) {
@@ -40,5 +40,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ListContentView()
 }

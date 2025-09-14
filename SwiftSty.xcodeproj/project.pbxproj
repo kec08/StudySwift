@@ -14,6 +14,7 @@
 		BC2447B82DFFF9EE00E10A17 /* DisclosureGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447B72DFFF9EB00E10A17 /* DisclosureGroupView.swift */; };
 		BC2447BA2E000E3F00E10A17 /* OutlineGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447B92E000E3900E10A17 /* OutlineGroupView.swift */; };
 		BC2447BC2E0030FB00E10A17 /* ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447BB2E0030F000E10A17 /* ScrollViewReader.swift */; };
+		BC3A27252E77128F002D604C /* 2025_09_14_SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A27242E771271002D604C /* 2025_09_14_SearchBarView.swift */; };
 		BC56B0E42E748F6900AE652B /* 2025_09_12_PencilKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC56B0E32E748F5100AE652B /* 2025_09_12_PencilKitView.swift */; };
 		BC661C882E71E5360059739E /* NetflixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC661C872E71E5140059739E /* NetflixView.swift */; };
 		BC661C8A2E71E54D0059739E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC661C892E71E54C0059739E /* HomeView.swift */; };
@@ -131,6 +132,7 @@
 		BC2447B72DFFF9EB00E10A17 /* DisclosureGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupView.swift; sourceTree = "<group>"; };
 		BC2447B92E000E3900E10A17 /* OutlineGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupView.swift; sourceTree = "<group>"; };
 		BC2447BB2E0030F000E10A17 /* ScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader.swift; sourceTree = "<group>"; };
+		BC3A27242E771271002D604C /* 2025_09_14_SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_09_14_SearchBarView.swift; sourceTree = "<group>"; };
 		BC56B0E32E748F5100AE652B /* 2025_09_12_PencilKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_09_12_PencilKitView.swift; sourceTree = "<group>"; };
 		BC661C872E71E5140059739E /* NetflixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixView.swift; sourceTree = "<group>"; };
 		BC661C892E71E54C0059739E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -224,16 +226,6 @@
 			path = ListNavDemo;
 			sourceTree = "<group>";
 		};
-		BC4186142E7568DB002A11EA /* ListNavDemoTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ListNavDemoTests;
-			sourceTree = "<group>";
-		};
-		BC4186172E7568DB002A11EA /* ListNavDemoUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ListNavDemoUITests;
-			sourceTree = "<group>";
-		};
 		BC756E912E1193A000B07C89 /* animations */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = animations;
@@ -280,6 +272,7 @@
 		BC0818D62E6526C400BC0C50 /* 09 */ = {
 			isa = PBXGroup;
 			children = (
+				BC3A27242E771271002D604C /* 2025_09_14_SearchBarView.swift */,
 				BC4186042E7568C9002A11EA /* 2025_09_13 */,
 				BC56B0E32E748F5100AE652B /* 2025_09_12_PencilKitView.swift */,
 				BC661C862E71E5070059739E /* 2025_09_10 ~ 11 */,
@@ -321,8 +314,6 @@
 			isa = PBXGroup;
 			children = (
 				BC4186122E7568DB002A11EA /* ListNavDemo */,
-				BC4186142E7568DB002A11EA /* ListNavDemoTests */,
-				BC4186172E7568DB002A11EA /* ListNavDemoUITests */,
 			);
 			path = 2025_09_13;
 			sourceTree = "<group>";
@@ -522,8 +513,6 @@
 			);
 			fileSystemSynchronizedGroups = (
 				BC4186122E7568DB002A11EA /* ListNavDemo */,
-				BC4186142E7568DB002A11EA /* ListNavDemoTests */,
-				BC4186172E7568DB002A11EA /* ListNavDemoUITests */,
 				BC756E912E1193A000B07C89 /* animations */,
 				BCC1CDAA2E3BC87100AD07C4 /* 08 */,
 				BCD71CE42E0C36CA0070ADC9 /* VideoPlayer */,
@@ -699,6 +688,7 @@
 				BC0253062E28F27700504074 /* 2025_07_17_allowsHitTestingView.swift in Sources */,
 				BCF39E942E32900100E1FCF2 /* 2025_07_25_compositingGroupView.swift in Sources */,
 				BCE590322E6C7F66007F7852 /* StorageView.swift in Sources */,
+				BC3A27252E77128F002D604C /* 2025_09_14_SearchBarView.swift in Sources */,
 				BCB3BFED2DFC772B001B2DDE /* multilineTextAlignment.swift in Sources */,
 				BC661C882E71E5360059739E /* NetflixView.swift in Sources */,
 				BCF8E47F2E1EB7A600B719FB /* onChangeView.swift in Sources */,
