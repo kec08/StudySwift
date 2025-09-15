@@ -20,6 +20,9 @@
 		BC3A286B2E7859BA002D604C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BC3A286A2E7859BA002D604C /* Alamofire */; };
 		BC3A28702E785B0F002D604C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BC3A286F2E785B0F002D604C /* Lottie */; };
 		BC3A28722E7863EF002D604C /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A28712E7863DF002D604C /* TodoListView.swift */; };
+		BC3A28752E78704D002D604C /* LotteryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A28742E787046002D604C /* LotteryData.swift */; };
+		BC3A28772E78709F002D604C /* LotteryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A28762E787090002D604C /* LotteryViewModel.swift */; };
+		BC3A28792E78735B002D604C /* LotteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A28782E787353002D604C /* LotteryView.swift */; };
 		BC56B0E42E748F6900AE652B /* 2025_09_12_PencilKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC56B0E32E748F5100AE652B /* 2025_09_12_PencilKitView.swift */; };
 		BC661C882E71E5360059739E /* NetflixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC661C872E71E5140059739E /* NetflixView.swift */; };
 		BC661C8A2E71E54D0059739E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC661C892E71E54C0059739E /* HomeView.swift */; };
@@ -140,6 +143,9 @@
 		BC3A27E52E7853FE002D604C /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
 		BC3A27ED2E785576002D604C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		BC3A28712E7863DF002D604C /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		BC3A28742E787046002D604C /* LotteryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryData.swift; sourceTree = "<group>"; };
+		BC3A28762E787090002D604C /* LotteryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryViewModel.swift; sourceTree = "<group>"; };
+		BC3A28782E787353002D604C /* LotteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryView.swift; sourceTree = "<group>"; };
 		BC56B0E32E748F5100AE652B /* 2025_09_12_PencilKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_09_12_PencilKitView.swift; sourceTree = "<group>"; };
 		BC661C872E71E5140059739E /* NetflixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixView.swift; sourceTree = "<group>"; };
 		BC661C892E71E54C0059739E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -280,6 +286,7 @@
 		BC0818D62E6526C400BC0C50 /* 09 */ = {
 			isa = PBXGroup;
 			children = (
+				BC3A28732E787039002D604C /* 2025_09_16 */,
 				BC3A27EC2E785565002D604C /* 2025_09_15 */,
 				BC3A27242E771271002D604C /* 2025_09_14_SearchBarView.swift */,
 				BC4186042E7568C9002A11EA /* 2025_09_13 */,
@@ -327,6 +334,16 @@
 				BC3A27E52E7853FE002D604C /* TodoViewModel.swift */,
 			);
 			path = 2025_09_15;
+			sourceTree = "<group>";
+		};
+		BC3A28732E787039002D604C /* 2025_09_16 */ = {
+			isa = PBXGroup;
+			children = (
+				BC3A28782E787353002D604C /* LotteryView.swift */,
+				BC3A28762E787090002D604C /* LotteryViewModel.swift */,
+				BC3A28742E787046002D604C /* LotteryData.swift */,
+			);
+			path = 2025_09_16;
 			sourceTree = "<group>";
 		};
 		BC4186042E7568C9002A11EA /* 2025_09_13 */ = {
@@ -720,6 +737,9 @@
 				BC75B52D2E3147D100C6BF9B /* 2025_07_24_ChipsView.swift in Sources */,
 				BC2447382DFF0B4700E10A17 /* redactedView.swift in Sources */,
 				BCFBC8512E0D2D0F0033E563 /* HCalendarView.swift in Sources */,
+				BC3A28792E78735B002D604C /* LotteryView.swift in Sources */,
+				BC3A28772E78709F002D604C /* LotteryViewModel.swift in Sources */,
+				BC3A28752E78704D002D604C /* LotteryData.swift in Sources */,
 				BCD814BE2E675D110070D9B4 /* 2025_09_02_PerformanceTestView.swift in Sources */,
 				BCAB50972E06A7A5002E5837 /* LazyVGridView.swift in Sources */,
 				BCE5902D2E6C164B007F7852 /* FirstTabView.swift in Sources */,
