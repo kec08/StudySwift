@@ -74,6 +74,7 @@
 		BCE590382E6D86E3007F7852 /* 2025_09_08_AlignmentToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE590372E6D86C3007F7852 /* 2025_09_08_AlignmentToolView.swift */; };
 		BCE590412E6DD62C007F7852 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE590402E6DD61F007F7852 /* ListView.swift */; };
 		BCEE41562E0F34C9002AC57E /* AnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE41552E0F34B7002AC57E /* AnimationsView.swift */; };
+		BCF04E762E7B1AA40013FF98 /* 2025_09_17_MapShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF04E752E7B1A980013FF98 /* 2025_09_17_MapShowView.swift */; };
 		BCF39E942E32900100E1FCF2 /* 2025_07_25_compositingGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF39E932E328FF000E1FCF2 /* 2025_07_25_compositingGroupView.swift */; };
 		BCF5AE182E084E4B0074E06A /* renderingModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5AE172E084E480074E06A /* renderingModeView.swift */; };
 		BCF5AE1C2E0995000074E06A /* refreshableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5AE1B2E0994F80074E06A /* refreshableView.swift */; };
@@ -197,6 +198,7 @@
 		BCE590372E6D86C3007F7852 /* 2025_09_08_AlignmentToolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_09_08_AlignmentToolView.swift; sourceTree = "<group>"; };
 		BCE590402E6DD61F007F7852 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		BCEE41552E0F34B7002AC57E /* AnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsView.swift; sourceTree = "<group>"; };
+		BCF04E752E7B1A980013FF98 /* 2025_09_17_MapShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_09_17_MapShowView.swift; sourceTree = "<group>"; };
 		BCF345B62E608F08000B7196 /* SwiftSty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftSty.entitlements; sourceTree = "<group>"; };
 		BCF345B72E60905D000B7196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BCF39E932E328FF000E1FCF2 /* 2025_07_25_compositingGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_25_compositingGroupView.swift; sourceTree = "<group>"; };
@@ -387,6 +389,7 @@
 		BCAC4C0D2E20F0A200E06946 /* 2025 */ = {
 			isa = PBXGroup;
 			children = (
+				BCF04E752E7B1A980013FF98 /* 2025_09_17_MapShowView.swift */,
 				BC0818D62E6526C400BC0C50 /* 09 */,
 				BCC1CDAA2E3BC87100AD07C4 /* 08 */,
 				BCAC4C0E2E20F0D100E06946 /* 07 */,
@@ -772,6 +775,7 @@
 				BCA59B4A2DFDFEAE0001EF7D /* RectangleMarkView.swift in Sources */,
 				BCA59B4E2DFE71C80001EF7D /* NavigationStackView.swift in Sources */,
 				BCB3BFF12DFC7DCF001B2DDE /* lineSpacing.swift in Sources */,
+				BCF04E762E7B1AA40013FF98 /* 2025_09_17_MapShowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -940,6 +944,7 @@
 				INFOPLIST_FILE = SwiftSty/Info.plist;
 				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "사용자 건강 정보를 가져옵니다.";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "수면 데이터를 읽어와 맞춤형 리포트를 제공합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "내 위치 정보를 받아오기 위한 라이브러리입니다.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "이미지를 불러오기를 위한 라이브러리입니다";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -973,6 +978,7 @@
 				INFOPLIST_FILE = SwiftSty/Info.plist;
 				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "사용자 건강 정보를 가져옵니다.";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "수면 데이터를 읽어와 맞춤형 리포트를 제공합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "내 위치 정보를 받아오기 위한 라이브러리입니다.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "이미지를 불러오기를 위한 라이브러리입니다";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
