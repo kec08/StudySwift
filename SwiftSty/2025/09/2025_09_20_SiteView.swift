@@ -38,13 +38,7 @@ struct WebView: UIViewRepresentable {
     }
 }
 
-struct SiteView: View {
-    var body: some View {
-        WebView(url: URL(string: "https://www.apple.com")!)
-    }
-}
-
 #Preview {
-    SiteView()
+    WebView(url: URL(string: "https://www.apple.com")!)
 }
 
