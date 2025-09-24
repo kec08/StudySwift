@@ -14,6 +14,8 @@
 		BC2447B82DFFF9EE00E10A17 /* DisclosureGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447B72DFFF9EB00E10A17 /* DisclosureGroupView.swift */; };
 		BC2447BA2E000E3F00E10A17 /* OutlineGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447B92E000E3900E10A17 /* OutlineGroupView.swift */; };
 		BC2447BC2E0030FB00E10A17 /* ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447BB2E0030F000E10A17 /* ScrollViewReader.swift */; };
+		BC2D867A2E81382600D314C7 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2D86792E81381B00D314C7 /* ChartView.swift */; };
+		BC2D86F82E843BEE00D314C7 /* Iris.csv in Resources */ = {isa = PBXBuildFile; fileRef = BC2D867C2E84366B00D314C7 /* Iris.csv */; };
 		BC3A27252E77128F002D604C /* 2025_09_14_SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A27242E771271002D604C /* 2025_09_14_SearchBarView.swift */; };
 		BC3A27E62E785422002D604C /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A27E52E7853FE002D604C /* TodoViewModel.swift */; };
 		BC3A27EE2E785579002D604C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A27ED2E785576002D604C /* Model.swift */; };
@@ -143,6 +145,8 @@
 		BC2447B72DFFF9EB00E10A17 /* DisclosureGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupView.swift; sourceTree = "<group>"; };
 		BC2447B92E000E3900E10A17 /* OutlineGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupView.swift; sourceTree = "<group>"; };
 		BC2447BB2E0030F000E10A17 /* ScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader.swift; sourceTree = "<group>"; };
+		BC2D86792E81381B00D314C7 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		BC2D867C2E84366B00D314C7 /* Iris.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Iris.csv; sourceTree = "<group>"; };
 		BC3A27242E771271002D604C /* 2025_09_14_SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_09_14_SearchBarView.swift; sourceTree = "<group>"; };
 		BC3A27E52E7853FE002D604C /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
 		BC3A27ED2E785576002D604C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -294,6 +298,7 @@
 		BC0818D62E6526C400BC0C50 /* 09 */ = {
 			isa = PBXGroup;
 			children = (
+				BC2D867B2E84365600D314C7 /* 2025_09_24 */,
 				BCB936D32E80341700A7D97C /* 2025_09_21_CombineView.swift */,
 				BCB936582E7F17D600A7D97C /* 2025_09_20_SiteView.swift */,
 				BC3A28732E787039002D604C /* 2025_09_16 */,
@@ -336,6 +341,15 @@
 				BC2027B42DF9926B00B1CC27 /* SwiftStyUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BC2D867B2E84365600D314C7 /* 2025_09_24 */ = {
+			isa = PBXGroup;
+			children = (
+				BC2D867C2E84366B00D314C7 /* Iris.csv */,
+				BC2D86792E81381B00D314C7 /* ChartView.swift */,
+			);
+			path = 2025_09_24;
 			sourceTree = "<group>";
 		};
 		BC3A27EC2E785565002D604C /* 2025_09_15 */ = {
@@ -673,6 +687,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2D86F82E843BEE00D314C7 /* Iris.csv in Resources */,
 				BCB3BFE62DFBD02E001B2DDE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -721,6 +736,7 @@
 				BCA59B462DFDFC030001EF7D /* AreaMarkView.swift in Sources */,
 				BCB3BFE82DFBD02E001B2DDE /* SwiftStyApp.swift in Sources */,
 				BCB936522E7E56E000A7D97C /* 2025_09_19SoundEffectView.swift in Sources */,
+				BC2D867A2E81382600D314C7 /* ChartView.swift in Sources */,
 				BC75B52F2E3148F000C6BF9B /* 2025_07_24_ChipsContainerMainView.swift in Sources */,
 				BC661C8A2E71E54D0059739E /* HomeView.swift in Sources */,
 				BCBDDD0C2E33E909007C51F7 /* 2025_07_26_blendModeView.swift in Sources */,
