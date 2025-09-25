@@ -16,6 +16,7 @@
 		BC2447BC2E0030FB00E10A17 /* ScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2447BB2E0030F000E10A17 /* ScrollViewReader.swift */; };
 		BC2D867A2E81382600D314C7 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2D86792E81381B00D314C7 /* ChartView.swift */; };
 		BC2D86F82E843BEE00D314C7 /* Iris.csv in Resources */ = {isa = PBXBuildFile; fileRef = BC2D867C2E84366B00D314C7 /* Iris.csv */; };
+		BC2D87742E857EB400D314C7 /* SwiftDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2D87732E857E9000D314C7 /* SwiftDataTest.swift */; };
 		BC3A27252E77128F002D604C /* 2025_09_14_SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A27242E771271002D604C /* 2025_09_14_SearchBarView.swift */; };
 		BC3A27E62E785422002D604C /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A27E52E7853FE002D604C /* TodoViewModel.swift */; };
 		BC3A27EE2E785579002D604C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A27ED2E785576002D604C /* Model.swift */; };
@@ -147,6 +148,7 @@
 		BC2447BB2E0030F000E10A17 /* ScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader.swift; sourceTree = "<group>"; };
 		BC2D86792E81381B00D314C7 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		BC2D867C2E84366B00D314C7 /* Iris.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Iris.csv; sourceTree = "<group>"; };
+		BC2D87732E857E9000D314C7 /* SwiftDataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataTest.swift; sourceTree = "<group>"; };
 		BC3A27242E771271002D604C /* 2025_09_14_SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_09_14_SearchBarView.swift; sourceTree = "<group>"; };
 		BC3A27E52E7853FE002D604C /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
 		BC3A27ED2E785576002D604C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -298,6 +300,7 @@
 		BC0818D62E6526C400BC0C50 /* 09 */ = {
 			isa = PBXGroup;
 			children = (
+				BC2D87722E857E8500D314C7 /* 2025_09_25 */,
 				BC2D867B2E84365600D314C7 /* 2025_09_24 */,
 				BCB936D32E80341700A7D97C /* 2025_09_21_CombineView.swift */,
 				BCB936582E7F17D600A7D97C /* 2025_09_20_SiteView.swift */,
@@ -350,6 +353,14 @@
 				BC2D86792E81381B00D314C7 /* ChartView.swift */,
 			);
 			path = 2025_09_24;
+			sourceTree = "<group>";
+		};
+		BC2D87722E857E8500D314C7 /* 2025_09_25 */ = {
+			isa = PBXGroup;
+			children = (
+				BC2D87732E857E9000D314C7 /* SwiftDataTest.swift */,
+			);
+			path = 2025_09_25;
 			sourceTree = "<group>";
 		};
 		BC3A27EC2E785565002D604C /* 2025_09_15 */ = {
@@ -795,6 +806,7 @@
 				BCA2565E2E36832E00F51289 /* 2025_07_28_ScrollOffsetView.swift in Sources */,
 				BCB936592E7F17E600A7D97C /* 2025_09_20_SiteView.swift in Sources */,
 				BC10DD4B2E69DB03008A302A /* 2025_09_04_GeometryReaderView.swift in Sources */,
+				BC2D87742E857EB400D314C7 /* SwiftDataTest.swift in Sources */,
 				BCE22D072E2E1A6100BBDD14 /* 2025_07_21_MagnifyGestureView.swift in Sources */,
 				BCA256602E37E0CD00F51289 /* 2025_07_29_PasteButtonView.swift in Sources */,
 				BC8AD5832E7084900059B366 /* 2025_09_09_MapKitView.swift in Sources */,
