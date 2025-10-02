@@ -169,7 +169,7 @@ struct ToastBasicView: View {
                 Text("오류")
             }
             Button {
-                toast = FancyToast(type: .warning, title: "제목으로 경고합니다", message: "주의해야할때 나오는 경고 메시지입니다")
+                toast = FancyToast(type: .warning, title: "제목으로 경고합니다", message: "주의해야할때 나오는 경고 메시지입니다.")
             } label: {
                 Text("경고")
             }
