@@ -15,7 +15,7 @@ struct videoView: View {
         VideoPlayer(player: player)
             .overlay(
                 VStack {
-                    Text("서근개발블로그")
+                    Text("sliver")
                         .font(.caption)
                         .foregroundColor(.white)
                         .padding(4)
