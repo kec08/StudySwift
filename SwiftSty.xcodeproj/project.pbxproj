@@ -85,6 +85,9 @@
 		BCEE41562E0F34C9002AC57E /* AnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE41552E0F34B7002AC57E /* AnimationsView.swift */; };
 		BCF04E762E7B1AA40013FF98 /* 2025_09_17_MapShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF04E752E7B1A980013FF98 /* 2025_09_17_MapShowView.swift */; };
 		BCF39E942E32900100E1FCF2 /* 2025_07_25_compositingGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF39E932E328FF000E1FCF2 /* 2025_07_25_compositingGroupView.swift */; };
+		BCF40E942EAE69A700A67424 /* ViewModelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF40E932EAE697E00A67424 /* ViewModelable.swift */; };
+		BCF40EA52EAE69E800A67424 /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF40EA42EAE69E800A67424 /* CounterViewModel.swift */; };
+		BCF40EA72EAE69F200A67424 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF40EA62EAE69F200A67424 /* CounterView.swift */; };
 		BCF5AE182E084E4B0074E06A /* renderingModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5AE172E084E480074E06A /* renderingModeView.swift */; };
 		BCF5AE1C2E0995000074E06A /* refreshableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5AE1B2E0994F80074E06A /* refreshableView.swift */; };
 		BCF5AE1E2E09A30B0074E06A /* RefreshActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5AE1D2E09A30A0074E06A /* RefreshActionView.swift */; };
@@ -220,6 +223,9 @@
 		BCF345B62E608F08000B7196 /* SwiftSty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftSty.entitlements; sourceTree = "<group>"; };
 		BCF345B72E60905D000B7196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BCF39E932E328FF000E1FCF2 /* 2025_07_25_compositingGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2025_07_25_compositingGroupView.swift; sourceTree = "<group>"; };
+		BCF40E932EAE697E00A67424 /* ViewModelable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelable.swift; sourceTree = "<group>"; };
+		BCF40EA42EAE69E800A67424 /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
+		BCF40EA62EAE69F200A67424 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		BCF5AE172E084E480074E06A /* renderingModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = renderingModeView.swift; sourceTree = "<group>"; };
 		BCF5AE1B2E0994F80074E06A /* refreshableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = refreshableView.swift; sourceTree = "<group>"; };
 		BCF5AE1D2E09A30A0074E06A /* RefreshActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshActionView.swift; sourceTree = "<group>"; };
@@ -334,6 +340,7 @@
 		BC1160282E8CB305009253D5 /* 10 */ = {
 			isa = PBXGroup;
 			children = (
+				BCF40E922EAE696C00A67424 /* 2025_10_26 */,
 				BC5AA5612E914681002131CD /* 2025_10_04_CustomCircleView.swift */,
 				BC5AA4B12E901B23002131CD /* 2025_10_03_videoView.swift */,
 				BCE089152E8E4F5E006FD87F /* 2025_10_02_ToastmessageView.swift */,
@@ -575,6 +582,16 @@
 			path = 2025_09_08;
 			sourceTree = "<group>";
 		};
+		BCF40E922EAE696C00A67424 /* 2025_10_26 */ = {
+			isa = PBXGroup;
+			children = (
+				BCF40EA62EAE69F200A67424 /* CounterView.swift */,
+				BCF40EA42EAE69E800A67424 /* CounterViewModel.swift */,
+				BCF40E932EAE697E00A67424 /* ViewModelable.swift */,
+			);
+			path = 2025_10_26;
+			sourceTree = "<group>";
+		};
 		BCF8E4652E1C2FBA00B719FB /* monospaced */ = {
 			isa = PBXGroup;
 			children = (
@@ -778,8 +795,10 @@
 				BCF8E4602E1C2EC800B719FB /* MonospacedView.swift in Sources */,
 				BC0253082E2D2C5900504074 /* 2025_07_20_BorderlessButtonStyleView.swift in Sources */,
 				BCAC4C0B2E20ED8300E06946 /* 2025_07_11_ScrollViewRepresentableView.swift in Sources */,
+				BCF40EA52EAE69E800A67424 /* CounterViewModel.swift in Sources */,
 				BCE22DAC2E2EB92500BBDD14 /* 2025_07_22_maskView.swift in Sources */,
 				BC661C8C2E71E55F0059739E /* Drama.swift in Sources */,
+				BCF40E942EAE69A700A67424 /* ViewModelable.swift in Sources */,
 				BCF5AE1E2E09A30B0074E06A /* RefreshActionView.swift in Sources */,
 				BCF8E3BC2E1ADF2600B719FB /* StickyView.swift in Sources */,
 				BCA2565C2E353EAB00F51289 /* 2025_07_27_ShareLinkView.swift in Sources */,
@@ -805,6 +824,7 @@
 				BCF8E49B2E20084100B719FB /* 2025_07_10_PickerCustomView.swift in Sources */,
 				BCF6671E2E0AF98600C8B475 /* TextView.swift in Sources */,
 				BC75B5292E2FEF4F00C6BF9B /* 2025_07_23_shadowView.swift in Sources */,
+				BCF40EA72EAE69F200A67424 /* CounterView.swift in Sources */,
 				BCF5AE1C2E0995000074E06A /* refreshableView.swift in Sources */,
 				BCAB50992E06A85C002E5837 /* LazyHGridView.swift in Sources */,
 				BCE22DAE2E2EB9A900BBDD14 /* 2025_07_22_trimView.swift in Sources */,
