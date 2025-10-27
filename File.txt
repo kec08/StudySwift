@@ -1,0 +1,1 @@
+Multiple commands produce '/Users/kim-eunchan/Library/Developer/Xcode/DerivedData/SwiftSty-adiqytxtdksemtbkdtvckypoxpjq/Build/Products/Debug-iphonesimulator/MyWidgetExtension.appex/Info.plist'
