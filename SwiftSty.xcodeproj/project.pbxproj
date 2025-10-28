@@ -91,6 +91,7 @@
 		BCF40F1D2EAFCCC300A67424 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF40ECF2EAFB4E000A67424 /* WidgetKit.framework */; };
 		BCF40F1E2EAFCCC300A67424 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF40ED12EAFB4E000A67424 /* SwiftUI.framework */; };
 		BCF40F2F2EAFCCC400A67424 /* WidgetViewExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BCF40F1C2EAFCCC300A67424 /* WidgetViewExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BCF40FDD2EB0EF1900A67424 /* Widget.txt in Resources */ = {isa = PBXBuildFile; fileRef = BCF40FDC2EB0EF0D00A67424 /* Widget.txt */; };
 		BCF5AE182E084E4B0074E06A /* renderingModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5AE172E084E480074E06A /* renderingModeView.swift */; };
 		BCF5AE1C2E0995000074E06A /* refreshableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5AE1B2E0994F80074E06A /* refreshableView.swift */; };
 		BCF5AE1E2E09A30B0074E06A /* RefreshActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5AE1D2E09A30A0074E06A /* RefreshActionView.swift */; };
@@ -250,6 +251,7 @@
 		BCF40ECF2EAFB4E000A67424 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		BCF40ED12EAFB4E000A67424 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		BCF40F1C2EAFCCC300A67424 /* WidgetViewExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetViewExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF40FDC2EB0EF0D00A67424 /* Widget.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Widget.txt; sourceTree = "<group>"; };
 		BCF5AE172E084E480074E06A /* renderingModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = renderingModeView.swift; sourceTree = "<group>"; };
 		BCF5AE1B2E0994F80074E06A /* refreshableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = refreshableView.swift; sourceTree = "<group>"; };
 		BCF5AE1D2E09A30A0074E06A /* RefreshActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshActionView.swift; sourceTree = "<group>"; };
@@ -651,6 +653,7 @@
 		BCF40EB52EAF9FDC00A67424 /* 2025_10_27 */ = {
 			isa = PBXGroup;
 			children = (
+				BCF40FDC2EB0EF0D00A67424 /* Widget.txt */,
 			);
 			path = 2025_10_27;
 			sourceTree = "<group>";
@@ -824,6 +827,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC2D86F82E843BEE00D314C7 /* Iris.csv in Resources */,
+				BCF40FDD2EB0EF1900A67424 /* Widget.txt in Resources */,
 				BCB3BFE62DFBD02E001B2DDE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

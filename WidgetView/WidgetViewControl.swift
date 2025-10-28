@@ -10,7 +10,7 @@ import SwiftUI
 import WidgetKit
 
 struct WidgetViewControl: ControlWidget {
-    static let kind: String = "start.SwiftSty.WidgetView"
+    static let kind: String = "IntentWidgetKit"
 
     var body: some ControlWidgetConfiguration {
         AppIntentControlConfiguration(
@@ -29,6 +29,8 @@ struct WidgetViewControl: ControlWidget {
         .description("A an example control that runs a timer.")
     }
 }
+
+
 
 extension WidgetViewControl {
     struct Value {
@@ -49,11 +51,27 @@ extension WidgetViewControl {
 }
 
 struct TimerConfiguration: ControlConfigurationIntent {
-    static let title: LocalizedStringResource = "Timer Name Configuration"
+    static let title: LocalizedStringResource = "Select Color"
 
     @Parameter(title: "Timer Name", default: "Timer")
     var timerName: String
+    
+    @Parameter(title: "color",default: .redType)
+        var type : SelectColorType
 }
+
+enum SelectColorType: String, AppEnum {
+    case redType, blueType, orangeType
+
+    static var typeDisplayRepresentation: TypeDisplayRepresentation = "Color Type"
+    static var caseDisplayRepresentations: [SelectColorType : DisplayRepresentation] = [
+        .redType: "Red",
+        .blueType:"Blue",
+        .orangeType: "Oragnge",
+    ]
+}
+
+
 
 struct StartTimerIntent: SetValueIntent {
     static let title: LocalizedStringResource = "Start a timer"

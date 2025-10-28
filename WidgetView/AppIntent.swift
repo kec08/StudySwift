@@ -1,18 +1,19 @@
 //
 //  AppIntent.swift
-//  WidgetView
+//  SwiftSty
 //
 //  Created by 김은찬 on 10/28/25.
 //
 
-import WidgetKit
+// AppIntent.swift 파일
 import AppIntents
 
 struct ConfigurationAppIntent: WidgetConfigurationIntent {
-    static var title: LocalizedStringResource { "Configuration" }
-    static var description: IntentDescription { "This is an example widget." }
-
-    // An example configurable parameter.
-    @Parameter(title: "Favorite Emoji", default: "😃")
+    static var title: LocalizedStringResource = "위젯 설정"
+    
+    @Parameter(title: "이모지", default: "😀")
     var favoriteEmoji: String
+    
+    @Parameter(title: "위젯 색상", default: .pink)
+    var widgetColor: WidgetColorType
 }
