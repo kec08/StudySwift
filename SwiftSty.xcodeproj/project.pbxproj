@@ -296,6 +296,11 @@
 			path = SwiftStyUITests;
 			sourceTree = "<group>";
 		};
+		BC3FC46E2F5DBDAC00D1A192 /* 2025_03_08 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 2025_03_08;
+			sourceTree = "<group>";
+		};
 		BC4186122E7568DB002A11EA /* ListNavDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ListNavDemo;
@@ -462,6 +467,22 @@
 			path = 2025_09_16;
 			sourceTree = "<group>";
 		};
+		BC3FC4692F5DBDA300D1A192 /* 2026 */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FC46A2F5DBDA900D1A192 /* 03 */,
+			);
+			path = 2026;
+			sourceTree = "<group>";
+		};
+		BC3FC46A2F5DBDA900D1A192 /* 03 */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FC46E2F5DBDAC00D1A192 /* 2025_03_08 */,
+			);
+			path = 03;
+			sourceTree = "<group>";
+		};
 		BC4186042E7568C9002A11EA /* 2025_09_13 */ = {
 			isa = PBXGroup;
 			children = (
@@ -555,6 +576,7 @@
 			children = (
 				BCF345B72E60905D000B7196 /* Info.plist */,
 				BCF345B62E608F08000B7196 /* SwiftSty.entitlements */,
+				BC3FC4692F5DBDA300D1A192 /* 2026 */,
 				BCAC4C0D2E20F0A200E06946 /* 2025 */,
 				BCB3BFE22DFBD02E001B2DDE /* Assets.xcassets */,
 				BCB3BFE32DFBD02E001B2DDE /* SwiftStyApp.swift */,
@@ -687,6 +709,7 @@
 				BCF40F2E2EAFCCC400A67424 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
+				BC3FC46E2F5DBDAC00D1A192 /* 2025_03_08 */,
 				BC4186122E7568DB002A11EA /* ListNavDemo */,
 				BC756E912E1193A000B07C89 /* animations */,
 				BCC1CDAA2E3BC87100AD07C4 /* 08 */,
@@ -1136,6 +1159,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftSty/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "사용자 건강 정보를 가져옵니다.";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "수면 데이터를 읽어와 맞춤형 리포트를 제공합니다.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "내 위치 정보를 받아오기 위한 라이브러리입니다.";
@@ -1171,6 +1195,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftSty/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "사용자 건강 정보를 가져옵니다.";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "수면 데이터를 읽어와 맞춤형 리포트를 제공합니다.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "내 위치 정보를 받아오기 위한 라이브러리입니다.";
